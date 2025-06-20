@@ -28,3 +28,15 @@ I replaced the default theme in the `gemfile` with `gem "minimal-mistakes-jekyll
 
 # Run as localhost
 You can give the website a test by running it as localhost in Codespaces using `bundle exec jekyll serve`.
+
+# Headers
+
+# Mindmap
+
+# Notice blocks
+https://mmistakes.github.io/minimal-mistakes/post%20formats/post-notice/
+
+# Images
+Creative Commons
+ 
+https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use
