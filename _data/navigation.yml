@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /index/
+    url: /
   - title: "Blog"
     url: /blog/
   # - title: "Books"
