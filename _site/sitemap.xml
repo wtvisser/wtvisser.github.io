@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/website/2025/06/01/welcome-to-my-blog-and-website.html</loc>
+<loc>http://localhost:4000/blog/2025/06/01/welcome-to-my-blog-and-website.html</loc>
 <lastmod>2025-06-01T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/skills/2025/06/19/expert-generalist.html</loc>
+<loc>http://localhost:4000/blog/2025/06/19/expert-generalist.html</loc>
 <lastmod>2025-06-19T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2025/06/24/the-future-of-jobs-report-2025.html</loc>
+<lastmod>2025-06-24T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -16,6 +20,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/hoard/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

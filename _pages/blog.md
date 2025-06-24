@@ -3,6 +3,9 @@ layout: home # this enables the Recent Posts section
 permalink: /blog/
 title: Blog
 author_profile: true
+
+header:
+  overlay_image: /assets/images/headers/leaf_1280x325.png
 ---
 Experience is best internalized by writing it down. Follow my thoughts in these blog posts.
 

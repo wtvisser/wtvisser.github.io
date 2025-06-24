@@ -40,3 +40,8 @@ https://mmistakes.github.io/minimal-mistakes/post%20formats/post-notice/
 Creative Commons
  
 https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use
+
+# OpenGraph
+
+# Link Previews
+https://github.com/ysk24ok/jekyll-linkpreview

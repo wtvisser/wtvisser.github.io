@@ -1,13 +1,18 @@
 ---
-layout: single
-classes: wide
-title:  "Expert Generalists"
-categories: skills
+layout:     single
+classes:    wide
+title:      "Expert Generalists"
+categories: blog
+tags: 
+  - skills
 
 tagline: "How to build cross-domain expertise and thrive"
 header:
-  overlay_image: /assets/images/headers/coyote.png
-  caption: "Coyotes are considered expert generalists. They thrive in a wide variety of habitats and consume a broad range of food sources."
+  overlay_image: /assets/images/headers/leaf_1280x325.png
+image:
+  path: assets/sleepdungeon/leaf_325x325_with_name.png
+  width: 325
+  height: 325  
 ---
 An article about Expert Generalists was posted by Martin Fowler on his website. 
 

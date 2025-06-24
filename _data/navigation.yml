@@ -3,10 +3,12 @@ main:
     url: /index/
   - title: "Blog"
     url: /blog/
-  - title: "Books"
-    url: /books/
-  - title: "Mindmap"
-    url: /mindmap/
+  # - title: "Books"
+  #   url: /books/
+  # - title: "Hoard"
+  #   url: /hoard/
+  # - title: "Mindmap"
+  #   url: /mindmap/
   - title: "About"
     url: /about/
 
