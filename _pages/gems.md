@@ -1,8 +1,8 @@
 ---
 layout: single
 classes: wide
-title: Hoard
-permalink: /hoard/
+title: Gems
+permalink: /gems/
 author_profile: true
 
 header:
