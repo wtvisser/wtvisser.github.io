@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "The Future of Jobs Report 2025",
-        "excerpt":"The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest. Below are excerpts from the report digest (bold emphasis is my own). Technology-related roles are the fastest-growing jobs in percentage terms, including Big Data Specialists, Fintech...","categories": ["blog"],
+        "excerpt":"The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest. Below are the relevant excerpts from the report digest (bold emphasis is my own). Technology-related roles are the fastest-growing jobs in percentage terms, including Big Data...","categories": ["blog"],
         "tags": ["skills"],
         "url": "/blog/2025/06/24/the-future-of-jobs-report-2025.html",
         "teaser": null

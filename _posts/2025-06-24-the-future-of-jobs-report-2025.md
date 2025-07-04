@@ -34,6 +34,6 @@ I cannot agree more. Analytical thinking - and its bigger sister, systems thinki
 We can only keep pace if we continue to improve ourselves. Rentlessly learning, inspired by true curiosity, drives the best of us forward. It is not for everyone, but as leaders we must foster this culture and enable and coach others.
 
 {% capture notice-2 %}
-<a target="_blank" rel="noopener noreferrer" href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" class="btn" title="The Future of Job Reports 2025 | World Economic Forum" style="font-size: 1em;"><i class="fa-solid fa-link" aria-hidden="true"></i><span> The Future Of Job Reports 2025 | World Economic Forum</span></a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" class="btn" title="The Future of Job Reports 2025 | World Economic Forum" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span>&emsp;The Future of Job Reports 2025 | World Economic Forum</span></a>
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>

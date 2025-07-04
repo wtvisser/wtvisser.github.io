@@ -10,3 +10,6 @@ I find it helpful to loosely arrange related topics in a mindmap to keep track o
 The mindmap will be shown here soon.
 
 <!-- {% include markmap.html %} -->
+
+* Ports & Adapters
+** https://herbertograca.com/2017/09/14/ports-adapters-architecture/#more-8817

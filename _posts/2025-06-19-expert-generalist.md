@@ -21,6 +21,6 @@ The article hits home. I consider myself what Martin and co describe an Expert G
 The few words about recruiting focus also resonate: valuing understanding concepts, effectively decomposing both systems and work, test (and quality) oriented, and collaborative. That is what I look for (besides some other traits) in engineers, rather than language and tool specifics that lose their value over time. 
 
 {% capture notice-2 %}
-<a target="_blank" rel="noopener noreferrer" href="https://martinfowler.com/articles/expert-generalist.html" class="btn" title="Expert Generalist | Martin Fowler" style="font-size: 1em;"><i class="fa-solid fa-link" aria-hidden="true"></i><span> Expert Generalist | Martin Fowler</span></a>
+<a target="_blank" rel="noopener noreferrer" href="https://martinfowler.com/articles/expert-generalist.html" class="btn" title="Expert Generalist | Martin Fowler" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span>&emsp;Expert Generalist | Martin Fowler</span></a>
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
