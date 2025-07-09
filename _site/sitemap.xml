@@ -29,7 +29,7 @@
 <loc>http://localhost:4000/gems/architecture</loc>
 </url>
 <url>
-<loc>http://localhost:4000/gems</loc>
+<loc>http://localhost:4000/gems/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

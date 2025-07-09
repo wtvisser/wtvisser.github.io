@@ -1,10 +1,10 @@
 ---
-layout:     single
-classes:    wide
-title:      Gems
-permalink: /gems
+layout:         single
+classes:        wide
+title:          Gems
+permalink:    /gems/
 author_profile: true
-categories: gems
+categories:     gems
 tags: 
   - engineering
 

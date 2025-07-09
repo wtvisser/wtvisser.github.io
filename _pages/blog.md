@@ -1,7 +1,7 @@
 ---
-layout: home # this enables the Recent Posts section
-permalink: /blog/
-title: Blog
+layout:         home # this enables the Recent Posts section
+permalink:      /blog/
+title:          Blog
 author_profile: true
 
 header:
