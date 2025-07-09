@@ -15,6 +15,7 @@ image:
     width: 325
     height: 325  
 ---
+{% include breadcrumbs.html %}
 
 I hoard knowledge. I use [Raindrop](https://raindrop.io/) to store what I read. You find some of those gems here.
 

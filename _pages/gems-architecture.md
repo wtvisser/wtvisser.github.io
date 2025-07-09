@@ -1,7 +1,7 @@
 ---
 layout:         single
 classes:        wide
-title:          Gems - Architecture
+title:          Architecture Gems
 permalink:      /gems/architecture/
 author_profile: true
 categories:     gems
@@ -15,6 +15,7 @@ image:
     width: 325
     height: 325  
 ---
+{% include breadcrumbs.html %}
 
 Here you find knowledge gems about software architecture.
 

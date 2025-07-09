@@ -7,6 +7,7 @@ toc: true
 toc_icon: "cog"
 toc_sticky: true
 ---
+
 # Wicher Visser
 This website provides my perspective on software engineering. It is based on my experience working with teams on building solutions.
 
