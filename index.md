@@ -14,12 +14,12 @@ This website provides my perspective on software engineering. It is based on my 
 I write about engineering practices that I consider essential in modern software engineering. 
 
 <!-- ## [Books](/books/)
-I am a knowledge hoarder. Read about what take-aways I distilled from the books I read.
+Read about what take-aways I distilled from the books I read.-->
 
-## [Hoard](/hoard/)
-TBD
+## [Gems](/gems/)
+I am a knowledge hoarder. Find out which gems I have collected during my career.
 
-## [Mindmap](/mindmap/)
+<!-- ## [Mindmap](/mindmap/)
 Mindmaps are a useful tool to visually guide throughts and keep a semblence of order. I use them to arrange topics that I consider important. -->
 
 ## [Contact](/about/)

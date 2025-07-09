@@ -5,8 +5,8 @@ main:
     url: /blog/
   # - title: "Books"
   #   url: /books/
-  # - title: "Gems"
-  #   url: /gems/
+  - title: "Gems"
+    url: /gems/
   # - title: "Mindmap"
   #   url: /mindmap/
   - title: "About"
