@@ -1,10 +1,10 @@
 ---
-layout:     single
-classes:    wide
-title:      Gems - Architecture
-permalink: /gems/architecture
+layout:         single
+classes:        wide
+title:          Gems - Architecture
+permalink:      /gems/architecture/
 author_profile: true
-categories: gems
+categories:     gems
 tags: 
   - engineering
 
