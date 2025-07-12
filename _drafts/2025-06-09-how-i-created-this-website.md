@@ -45,3 +45,12 @@ https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use
 
 # Link Previews
 https://github.com/ysk24ok/jekyll-linkpreview
+
+# Google Analytics
+
+
+# Gems - Raindrop
+
+# Books
+https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491
+https://www.goodreads.com/user/edit?ref=nav_profile_settings

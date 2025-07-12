@@ -3,10 +3,10 @@ main:
     url: /
   - title: "Blog"
     url: /blog/
-  # - title: "Books"
-  #   url: /books/
   - title: "Gems"
     url: /gems/
+  # - title: "Books"
+  #   url: /books/
   # - title: "Mindmap"
   #   url: /mindmap/
   - title: "About"
