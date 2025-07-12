@@ -24,5 +24,3 @@ These books are on my wish list.
 
 https://www.goodreads.com/review/list/23030704-wicher-visser?print=true&ref=nav_mybooks&shelf=engineering-read
 
-{% include goodreads_grid.html %}
-
