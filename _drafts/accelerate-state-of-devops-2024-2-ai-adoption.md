@@ -1,7 +1,7 @@
 ---
 layout:     single
 classes:    wide
-title:      "Accelerate State of DevOps: AI Adoption"
+title:      "Accelerate State of DevOps 2024 (2): AI Adoption"
 categories: blog
 tags: 
   - ai

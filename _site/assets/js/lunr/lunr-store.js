@@ -6,12 +6,6 @@ var store = [{
         "teaser": null
       },{
         "title": "How I created this website",
-        "excerpt":"Codespaces I decided to use Github Codespaces as my IDE. Setup was easy. See * Setup in Codespaces https://www.matthewcanderson.com/codespace-for-jekyll/ Github-pages gem Instead of the jekyll gem, I used the following dependencies: I use this to setup Jekyll: https://github.com/github/pages-gem in the gemfile, I replaced gem \"jekyll\", \"~&gt; 4.4.1\" with: source \"https://rubygems.org\"...","categories": [],
-        "tags": [],
-        "url": "/2025/06/09/how-i-created-this-website.html",
-        "teaser": null
-      },{
-        "title": "How I created this website",
         "excerpt":"   Principles   Policies   Guidelines   Standards   Guardrails   https://www.reddit.com/r/EnterpriseArchitect/comments/171njxa/standards_vs_guardrails/ https://www.abrahamberg.com/blog/enterprise-development-guidelines-guardrails-and-golden-paths/ https://betterfasterhappier.medium.com/agile-guardrails-an-alternative-to-methodologies-bf3e0bafd6eb   Railways not Guardrails https://www.linkedin.com/posts/ghohpe_platforms-guardrails-activity-7336391352366092288-2-A2/  ","categories": [],
         "tags": [],
         "url": "/2025/06/09/guardrails-and-principles.html",
@@ -27,18 +21,6 @@ var store = [{
         "excerpt":"The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest. Below are the relevant excerpts from the report digest (bold emphasis is my own). Technology-related roles are the fastest-growing jobs in percentage terms, including Big Data...","categories": ["blog"],
         "tags": ["skills"],
         "url": "/blog/2025/06/24/the-future-of-jobs-report-2025.html",
-        "teaser": null
-      },{
-        "title": "Accelerate State of DevOps: AI Adoption",
-        "excerpt":"Excerpts from summary findings High-levels of software delivery performance are achievable The highest performing teams excel across all four software delivery metrics (change lead time, deployment frequency, change fail percentage, and failed deployment recovery time) while the lowest performers perform poorly across all four. We see teams from every industry...","categories": ["blog"],
-        "tags": ["ai"],
-        "url": "/blog/2025/06/28/accelerate-state-of-devops-2024-ai-adoption.html",
-        "teaser": null
-      },{
-        "title": "Accelerate State of DevOps: Platform Engineering",
-        "excerpt":"Platform engineering is a sociotechnical discipline where engineers focus on the intersection of social interactions between different teams and the technical aspects of automation, selfservice, and repeatability of processes. In platform engineering, a lot of energy and focus is spent on improving the developer experience by building golden paths, which...","categories": ["blog"],
-        "tags": ["platform"],
-        "url": "/blog/2025/06/28/accelerate-state-of-devops-2024-platform-engineering.html",
         "teaser": null
       },{
         "title": "My experience from applying for the OpenCA Level 2 certification",
@@ -63,5 +45,59 @@ var store = [{
         "excerpt":"see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg First you must always remember that the data’s always dirty. When you ask the business for use cases, you will rarely (never) get use cases as we define the term. You will get scattered, shotgun information at varying levels of details. i. You can actually see this in...","categories": [],
         "tags": [],
         "url": "/2025/07/12/how-to-do-use-case-analysis-idesign.html",
+        "teaser": null
+      },{
+        "title": "How I created this website (1) - Jekyll and Github Pages",
+        "excerpt":"I recently created this website to share my experience and thoughts on software engineering. I was looking for an easy way to create a website. I do not have much time at hands, but also enjoy coding and customizing. Github Pages is a popular way to host static websites. It...","categories": ["blog"],
+        "tags": ["skills"],
+        "url": "/blog/2025/07/14/website-1-github-and-jekyll.html",
+        "teaser": null
+      },{
+        "title": "How I created this website (2) - Codespaces",
+        "excerpt":"I decided to use Github Codespaces as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the devcontainer with the development environment. Codespaces are cloud-hosted Github’s devcontainers accessible from VS Code (image belongs to Github Docs). Why Codespaces? Using devcontainers is...","categories": ["blog"],
+        "tags": ["website"],
+        "url": "/blog/2025/07/14/website-2-codespaces.html",
+        "teaser": null
+      },{
+        "title": "Accelerate State of DevOps 2024 (2): AI Adoption",
+        "excerpt":"Excerpts from summary findings High-levels of software delivery performance are achievable The highest performing teams excel across all four software delivery metrics (change lead time, deployment frequency, change fail percentage, and failed deployment recovery time) while the lowest performers perform poorly across all four. We see teams from every industry...","categories": ["blog"],
+        "tags": ["ai"],
+        "url": "/blog/2025/07/14/accelerate-state-of-devops-2024-2-ai-adoption.html",
+        "teaser": null
+      },{
+        "title": "Accelerate State of DevOps 2024 (3): Platform Engineering",
+        "excerpt":"Platform engineering is a sociotechnical discipline where engineers focus on the intersection of social interactions between different teams and the technical aspects of automation, selfservice, and repeatability of processes. In platform engineering, a lot of energy and focus is spent on improving the developer experience by building golden paths, which...","categories": ["blog"],
+        "tags": ["platform"],
+        "url": "/blog/2025/07/14/accelerate-state-of-devops-2024-3-platform-engineering.html",
+        "teaser": null
+      },{
+        "title": "Website X Google Analytics",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/2025/07/14/website-x-google-analytics.html",
+        "teaser": null
+      },{
+        "title": "Website X Mindmap",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/2025/07/14/website-x-mindmap.html",
+        "teaser": null
+      },{
+        "title": "Website X Raindrop",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/2025/07/14/website-x-raindrop.html",
+        "teaser": null
+      },{
+        "title": "Website X Books",
+        "excerpt":"Books  https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491 https://www.goodreads.com/user/edit?ref=nav_profile_settings  ","categories": [],
+        "tags": [],
+        "url": "/2025/07/14/website-x-books.html",
+        "teaser": null
+      },{
+        "title": "Website X Other",
+        "excerpt":"Images  Creative Commons   https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use   Link Previews  https://github.com/ysk24ok/jekyll-linkpreview   ","categories": [],
+        "tags": [],
+        "url": "/2025/07/14/website-x-other.html",
         "teaser": null
       }]

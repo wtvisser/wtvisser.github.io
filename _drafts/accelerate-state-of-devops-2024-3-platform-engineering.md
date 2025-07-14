@@ -1,7 +1,7 @@
 ---
 layout:     single
 classes:    wide
-title:      "Accelerate State of DevOps: Platform Engineering"
+title:      "Accelerate State of DevOps 2024 (3): Platform Engineering"
 categories: blog
 tags: 
   - platform

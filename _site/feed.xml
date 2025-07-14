@@ -1,149 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-14T07:07:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">How To Do Use Case Analysis Idesign</title><link href="http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign.html" rel="alternate" type="text/html" title="How To Do Use Case Analysis Idesign" /><published>2025-07-12T11:25:01+00:00</published><updated>2025-07-12T11:25:01+00:00</updated><id>http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign</id><content type="html" xml:base="http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign.html"><![CDATA[<p>see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-14T16:00:57+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">Website X Other</title><link href="http://localhost:4000/2025/07/14/website-x-other.html" rel="alternate" type="text/html" title="Website X Other" /><published>2025-07-14T16:00:20+00:00</published><updated>2025-07-14T16:00:20+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-other</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-other.html"><![CDATA[<h1 id="images">Images</h1>
+<p>Creative Commons</p>
 
-<p>First you must always remember that the data’s always dirty.
-When you ask the business for use cases, you will rarely (never) get use cases as we define the term.
-You will get scattered, shotgun information at varying levels of details.
-                                                               i.      You can actually see this in your use case notes.</p>
+<p>https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use</p>
 
-<p>It’s our job to interpret what we hear to find the real requirements.</p>
-
-<p>It all starts with interviewing.
-“If there’s one and only one thing the system needs to do, what would it be?”
-                                                               i.      “What’s another thing”</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                         ii.      …
-</code></pre></div></div>
-
-<p>“So that I can create an architecture, I need another level of detail on the first thing.”
-                                                               i.      “Please walk me through the steps.”</p>
-
-<p>The results of this line of inquiry will look very different than your use case notes.
-You can see this tension in validation suddenly appearing under Write.
-                                                               i.      Is write the only area where the system needs to perform validation?</p>
-
-<p>Next you must analyze and interpret.
-Consider that customers are not writing anything.
-What does the writing?
-Are we even doing writing?
-Does the business care about writing? Is this term even in the business vernacular?
-Note that write is geek speak seeping into the business context.
-                                                               i.      And if we let it, errantly into our architecture!</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                         ii.      Just like Get …
-</code></pre></div></div>
-
-<p>What does the business call it?</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg]]></summary></entry><entry><title type="html">Accelerate State of DevOps: Developer Experience</title><link href="http://localhost:4000/blog/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html" rel="alternate" type="text/html" title="Accelerate State of DevOps: Developer Experience" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-07-09T00:00:00+00:00</updated><id>http://localhost:4000/blog/2025/07/09/accelerate-state-of-devops-2024-developer-experience</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html"><![CDATA[<p>I recently re-read the <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a>. Here are my thoughts about <strong>Developer Experience</strong>.</p>
-
-<h2 id="provide-direction-to-obtain-drive">Provide direction to obtain drive</h2>
-
-<p>Guess what, Software Engineers are human too. <code class="language-plaintext highlighter-rouge">(/sarcasm)</code> The report mentioned:</p>
-
-<blockquote>
-  <p>A recent survey showed that 93% of workers reported that it’s important to have a job where they feel the work they do is meaningful.</p>
-</blockquote>
-
-<p>No surprise, of course. We are motivated and excel to new heights if we see meaning in our work, for example if we can change people or society for the better - however small that may be.</p>
-
-<p>This means that leaders must provide a clear sense of direction.</p>
-
-<blockquote>
-  <p>Instead of shipping arbitrary features and guessing whether users might use them, developers can rely on user feedback to help them prioritize what to build.</p>
-</blockquote>
-
-<p>Fast feedback is important. Product management and leadership should enable this. This is only possible if we have short feedback cycles, which in turn means we must automate and streamline our software delivery. The classic DevOps approach.</p>
-
-<h2 id="foster-a-culture-of-documentation">Foster a culture of documentation</h2>
-
-<p>The DORA authors share an interesting position about documentation.</p>
-
-<blockquote>
-  <p>The Agile manifesto advocates for “working software over comprehensive documentation”. We continue to find, however, that quality  documentation is a key component of working software.</p>
-</blockquote>
-
-<p>This aligns with my thoughts as an architect. Working software is, of course, our primary deliverable, and so rightly should be prioritized. However, we don’t just write software and deliver once. We have to maintain it, extend it, deploy elsewhere. The team may change, and stakeholders need to be informed regularly. All this requires knowledge to be available about the software and our ways of creating it. Not just in our minds, but more importantly written down somewhere.</p>
-
-<p>We should, however, document only that what is important. Technical decisions (using ADRs), architectural aspects, key use cases and requirements, guides and guidelines, etc. We need a healthy documentation culture. It should be part of our development best practices, for example as part of the <em>Definition of Done</em>.</p>
-
-<p>We should foster a healthy culture of documentation in our teams by following the practices the DORA authors identified to create quality documentation:</p>
-
-<blockquote>
-  <ul>
-    <li>Documenting critical use cases.</li>
-    <li>Taking training in technical writing.</li>
-    <li>Defining ownership and processes to update the documentation.</li>
-    <li>Distributing documentation work within the team.</li>
-    <li>Maintaining documentation as part of the software development lifecycle.</li>
-    <li>Deleting out-of-date or redundant documentation.</li>
-    <li>Recognizing documentation work in performance reviews and promotions.</li>
-  </ul>
-</blockquote>
-
-<p>Documentation in itself has some quality attributes:</p>
-
-<blockquote>
-  <p>Measure of quality documentation includes attributes like findability and reliability of the documentation.</p>
-</blockquote>
-
-<div class="notice">
-<p><span style="vertical-align: middle"><i class="fa-solid fa-lightbulb fa-2x" style="color:#FFD700;" aria-hidden="true"></i> I may write a post on how these quality attributes for documentation could be best achieved.</span></p>
-</div>
-
-<p>We have to be careful not to misuse or abuse documentation, i.e. use it for the wrong purposes:</p>
-
-<blockquote>
-  <p>Problematic documentation includes documentation that is created only for bureaucratic purposes, or to paper over mistrust between management and employees. An unhealthy documentation culture can also include writing documentation, but not maintaining or consolidating the documentation.</p>
-</blockquote>
-
-<p>The DORA report highlights that documentation can also help provide user-centricity to the development team:</p>
-
-<blockquote>
-  <p>The combination of good docs and a user-centered approach to software development is a powerful one. […] Documentation helps propagate user signals and feedback across the team and into the product itself. […] If a team has a high quality internal documentation then user signals included in it will have a higher impact on product performance.</p>
-</blockquote>
-
-<h2 id="increases-cross-functional-collaboration">Increases cross-functional collaboration</h2>
-
-<p>The report also mentioned that cross-functional collaboration is important.</p>
-
-<blockquote>
-  <p>Responsibilities extend beyond simply shipping software. This approach to software development can help developers break out of silos, seek alignment, foster teamwork, and create opportunities to learn more from others.</p>
-</blockquote>
-
-<p>This aligns with user-driven (and value-driven) development. Breaking silos is important; software engineering, and everything around it, is too big and complex for a single team to solve in most organizations.</p>
-
-<h1 id="what-else">What else?</h1>
-
-<p>There is more in the DORA report which I won’t be covering here. Those are important topics, such as AI Adoption, Platform Engineering, Shifting Priotities, Transformational Leadership, (and what skills a leader must have to be effective).</p>
-
-<div class="notice">
-<p><a target="_blank" rel="noopener noreferrer" href="https://dora.dev/research/2024/dora-report/" class="btn" title="Accelerate State of DevOps | 2024 DORA Report" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> Accelerate State of DevOps | 2024 DORA Report</span></a></p>
-</div>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="engineering" /><summary type="html"><![CDATA[I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Topics Backlog</title><link href="http://localhost:4000/2025/07/03/topics-backlog.html" rel="alternate" type="text/html" title="Topics Backlog" /><published>2025-07-03T11:01:04+00:00</published><updated>2025-07-03T11:01:04+00:00</updated><id>http://localhost:4000/2025/07/03/topics-backlog</id><content type="html" xml:base="http://localhost:4000/2025/07/03/topics-backlog.html"><![CDATA[<p>Cell-based architecture</p>
-<ul>
-  <li>https://www.infoq.com/cell-based-architecture/</li>
-  <li>https://www.infoq.com/articles/cell-based-architecture-2024-series/</li>
-</ul>
-
-<p>DAPR</p>
-
-<p>Sociotechnical architecture</p>
-<ul>
-  <li>https://www.infoq.com/sociotechnical-architecture/</li>
-</ul>
-
-<p>Privacy architecture</p>
-
-<p>FinOps</p>
-
-<p>AyncAPI</p>
-
-<p>Reactive Programming</p>
-
-<p>Service Mesh</p>
-
-<p>Actor Model</p>
-
-<p>GraphQL</p>
-
-<p>Edge Computing</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[Cell-based architecture https://www.infoq.com/cell-based-architecture/ https://www.infoq.com/articles/cell-based-architecture-2024-series/]]></summary></entry><entry><title type="html">My experience from applying for the OpenCA Level 2 certification</title><link href="http://localhost:4000/blog/2025/07/01/my-experience-from-applying-for-the-openca-certification.html" rel="alternate" type="text/html" title="My experience from applying for the OpenCA Level 2 certification" /><published>2025-07-01T06:04:12+00:00</published><updated>2025-07-01T06:04:12+00:00</updated><id>http://localhost:4000/blog/2025/07/01/my-experience-from-applying-for-the-openca-certification</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/01/my-experience-from-applying-for-the-openca-certification.html"><![CDATA[]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="certification" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accelerate State of DevOps: Platform Engineering</title><link href="http://localhost:4000/blog/2025/06/28/accelerate-state-of-devops-2024-platform-engineering.html" rel="alternate" type="text/html" title="Accelerate State of DevOps: Platform Engineering" /><published>2025-06-28T11:48:18+00:00</published><updated>2025-06-28T11:48:18+00:00</updated><id>http://localhost:4000/blog/2025/06/28/accelerate-state-of-devops-2024-platform-engineering</id><content type="html" xml:base="http://localhost:4000/blog/2025/06/28/accelerate-state-of-devops-2024-platform-engineering.html"><![CDATA[<p>Platform engineering is a sociotechnical
+<h1 id="link-previews">Link Previews</h1>
+<p>https://github.com/ysk24ok/jekyll-linkpreview</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[Images Creative Commons https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use]]></summary></entry><entry><title type="html">Website X Books</title><link href="http://localhost:4000/2025/07/14/website-x-books.html" rel="alternate" type="text/html" title="Website X Books" /><published>2025-07-14T16:00:02+00:00</published><updated>2025-07-14T16:00:02+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-books</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-books.html"><![CDATA[<h1 id="books">Books</h1>
+<p>https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491
+https://www.goodreads.com/user/edit?ref=nav_profile_settings</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[Books https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491 https://www.goodreads.com/user/edit?ref=nav_profile_settings]]></summary></entry><entry><title type="html">Website X Raindrop</title><link href="http://localhost:4000/2025/07/14/website-x-raindrop.html" rel="alternate" type="text/html" title="Website X Raindrop" /><published>2025-07-14T15:40:24+00:00</published><updated>2025-07-14T15:40:24+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-raindrop</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-raindrop.html"><![CDATA[]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Website X Mindmap</title><link href="http://localhost:4000/2025/07/14/website-x-mindmap.html" rel="alternate" type="text/html" title="Website X Mindmap" /><published>2025-07-14T15:40:12+00:00</published><updated>2025-07-14T15:40:12+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-mindmap</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-mindmap.html"><![CDATA[]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Website X Google Analytics</title><link href="http://localhost:4000/2025/07/14/website-x-google-analytics.html" rel="alternate" type="text/html" title="Website X Google Analytics" /><published>2025-07-14T15:40:00+00:00</published><updated>2025-07-14T15:40:00+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-google-analytics</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-google-analytics.html"><![CDATA[]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Accelerate State of DevOps 2024 (3): Platform Engineering</title><link href="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-3-platform-engineering.html" rel="alternate" type="text/html" title="Accelerate State of DevOps 2024 (3): Platform Engineering" /><published>2025-07-14T15:16:00+00:00</published><updated>2025-07-14T15:16:00+00:00</updated><id>http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-3-platform-engineering</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-3-platform-engineering.html"><![CDATA[<p>Platform engineering is a sociotechnical
 discipline where engineers focus on
 the intersection of social interactions
 between different teams and the
@@ -322,7 +185,7 @@ improve performance at scale.</p>
 
 <h1 id="links">Links</h1>
 <p>published October 2024
-https://dora.dev/research/2024/dora-report/</p>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="platform" /><summary type="html"><![CDATA[Platform engineering is a sociotechnical discipline where engineers focus on the intersection of social interactions between different teams and the technical aspects of automation, selfservice, and repeatability of processes.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accelerate State of DevOps: AI Adoption</title><link href="http://localhost:4000/blog/2025/06/28/accelerate-state-of-devops-2024-ai-adoption.html" rel="alternate" type="text/html" title="Accelerate State of DevOps: AI Adoption" /><published>2025-06-28T11:20:34+00:00</published><updated>2025-06-28T11:20:34+00:00</updated><id>http://localhost:4000/blog/2025/06/28/accelerate-state-of-devops-2024-ai-adoption</id><content type="html" xml:base="http://localhost:4000/blog/2025/06/28/accelerate-state-of-devops-2024-ai-adoption.html"><![CDATA[<h1 id="excerpts-from-summary-findings">Excerpts from summary findings</h1>
+https://dora.dev/research/2024/dora-report/</p>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="platform" /><summary type="html"><![CDATA[Platform engineering is a sociotechnical discipline where engineers focus on the intersection of social interactions between different teams and the technical aspects of automation, selfservice, and repeatability of processes.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accelerate State of DevOps 2024 (2): AI Adoption</title><link href="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-2-ai-adoption.html" rel="alternate" type="text/html" title="Accelerate State of DevOps 2024 (2): AI Adoption" /><published>2025-07-14T15:15:49+00:00</published><updated>2025-07-14T15:15:49+00:00</updated><id>http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-2-ai-adoption</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-2-ai-adoption.html"><![CDATA[<h1 id="excerpts-from-summary-findings">Excerpts from summary findings</h1>
 
 <p><strong>High-levels of software delivery performance are achievable</strong>
 The highest performing teams excel across all four software delivery metrics (change lead time, deployment frequency, change fail percentage, and failed deployment recovery  time) while the lowest performers perform poorly across all four. We see teams from every industry vertical in each of the performance clusters.</p>
@@ -412,44 +275,18 @@ with AI adoption.</p>
 
 <h1 id="links">Links</h1>
 <p>published October 2024
-https://dora.dev/research/2024/dora-report/</p>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="ai" /><summary type="html"><![CDATA[Excerpts from summary findings]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Future of Jobs Report 2025</title><link href="http://localhost:4000/blog/2025/06/24/the-future-of-jobs-report-2025.html" rel="alternate" type="text/html" title="The Future of Jobs Report 2025" /><published>2025-06-24T00:00:00+00:00</published><updated>2025-06-24T00:00:00+00:00</updated><id>http://localhost:4000/blog/2025/06/24/the-future-of-jobs-report-2025</id><content type="html" xml:base="http://localhost:4000/blog/2025/06/24/the-future-of-jobs-report-2025.html"><![CDATA[<p>The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.</p>
+https://dora.dev/research/2024/dora-report/</p>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="ai" /><summary type="html"><![CDATA[Excerpts from summary findings]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I created this website (1) - Jekyll and Github Pages</title><link href="http://localhost:4000/blog/2025/07/14/website-1-github-and-jekyll.html" rel="alternate" type="text/html" title="How I created this website (1) - Jekyll and Github Pages" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>http://localhost:4000/blog/2025/07/14/website-1-github-and-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/website-1-github-and-jekyll.html"><![CDATA[<p>I recently created this website to share my experience and thoughts on software engineering.</p>
 
-<p>Below are the relevant excerpts from the report <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/">digest</a> (bold emphasis is my own).</p>
+<p>I was looking for an easy way to create a website. I do not have much time at hands, but also enjoy coding and customizing. <a href="https://pages.github.com/">Github Pages</a> is a popular way to host static websites. It seems to provide what I need, at least for the time being.</p>
 
-<blockquote>
-  <p>Technology-related roles are <strong>the fastest-growing jobs</strong> in percentage terms, including <strong>Big Data Specialists</strong>, Fintech Engineers, <strong>AI and Machine Learning Specialists</strong> and <strong>Software and Application Developers</strong>. Green and energy transition roles, including Autonomous and Electric Vehicle Specialists, Environmental Engineers, and Renewable Energy Engineers, also feature within the top fastest-growing roles.</p>
-</blockquote>
+<p>Github Pages works with Jekyll. You can <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll">use Jekyll to create a GitHub Pages site</a> from your own Github repository.</p>
 
-<p>What does this tell us? Unsprisingly, following the trend and hype, AI and Machine Learning skills are highly sought after. More importantly however, to make use of these new AI capabilities,  there is also a high demand in big data engineering skills and related general software and application development expertise.</p>
+<h1 id="minima-as-the-jekyll-theme">Minima as the Jekyll theme</h1>
+<p>I like the Minimal Mistakes theme: https://mmistakes.github.io/minimal-mistakes/docs/installation/#theme-migration</p>
 
-<p>The digest continues:</p>
+<p>I replaced the default theme in the <code class="language-plaintext highlighter-rouge">gemfile</code> with <code class="language-plaintext highlighter-rouge">gem "minimal-mistakes-jekyll"</code>, ran <code class="language-plaintext highlighter-rouge">bundle</code> to update the dependencies, and configured it as a remote theme (so that Github Actions can use it) by replacing the default theme in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file by <code class="language-plaintext highlighter-rouge">remote_theme: mmistakes/minimal-mistakes@4.27.1</code>. Running <code class="language-plaintext highlighter-rouge">bundle update</code> install the theme, and we are good to go!</p>
 
-<blockquote>
-  <p><strong>Analytical thinking remains the most sought-after core skill</strong> among employers, with seven out of 10 companies considering it as essential in 2025. This is followed by <strong>resilience, flexibility and agility</strong>, along with <strong>leadership</strong> and social influence.</p>
-</blockquote>
-
-<p>I cannot agree more. Analytical thinking - and its bigger sister, systems thinking - have always been critical skills. With the increasing prevalence of AI-assisted coding tools like Cursor, Claude, and various Copilots this has become even more relevant. The shift from code, what started off with punch cards and assembly and progressed to  high-level languages and concepts, continous to play out. Software development will focus on design specifications and testing. This will entail for a large part modeling and reasoning, which require exactly these analytical skills.</p>
-
-<blockquote>
-  <p>AI and big data top the list of fastest-growing skills, followed closely by networks and cybersecurity as well as technology literacy. Complementing these technology-related skills, creative thinking, resilience, flexibility and agility, along with <strong>curiosity and lifelong learning</strong>, are also expected to continue to rise in importance over the 2025-2030 period. Conversely, manual dexterity, endurance and precision stand out with notable net declines in skills demand, with 24% of respondents foreseeing a decrease in their importance.</p>
-</blockquote>
-
-<p>We can only keep pace if we continue to improve ourselves. Rentlessly learning, inspired by true curiosity, drives the best of us forward. It is not for everyone, but as leaders we must foster this culture and enable and coach others.</p>
-
-<div class="notice">
-<p><a target="_blank" rel="noopener noreferrer" href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" class="btn" title="The Future of Job Reports 2025 | World Economic Forum" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> The Future of Job Reports 2025 | World Economic Forum</span></a></p>
-</div>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="skills" /><summary type="html"><![CDATA[The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Expert Generalists</title><link href="http://localhost:4000/blog/2025/06/19/expert-generalist.html" rel="alternate" type="text/html" title="Expert Generalists" /><published>2025-06-19T00:00:00+00:00</published><updated>2025-06-19T00:00:00+00:00</updated><id>http://localhost:4000/blog/2025/06/19/expert-generalist</id><content type="html" xml:base="http://localhost:4000/blog/2025/06/19/expert-generalist.html"><![CDATA[<p>An article about Expert Generalists was posted by Martin Fowler on his website.</p>
-
-<p>The article hits home. I consider myself what Martin and co describe an Expert Generalist is. I recognize the characteristics: curiosity-driven, collaborative, and customer (value)-focussed.</p>
-
-<p>The few words about recruiting focus also resonate: valuing understanding concepts, effectively decomposing both systems and work, test (and quality) oriented, and collaborative. That is what I look for (besides some other traits) in engineers, rather than language and tool specifics that lose their value over time.</p>
-
-<div class="notice">
-<p><a target="_blank" rel="noopener noreferrer" href="https://martinfowler.com/articles/expert-generalist.html" class="btn" title="Expert Generalist | Martin Fowler" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> Expert Generalist | Martin Fowler</span></a></p>
-</div>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="skills" /><summary type="html"><![CDATA[An article about Expert Generalists was posted by Martin Fowler on his website.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I created this website</title><link href="http://localhost:4000/2025/06/09/how-i-created-this-website.html" rel="alternate" type="text/html" title="How I created this website" /><published>2025-06-09T17:24:42+00:00</published><updated>2025-06-09T17:24:42+00:00</updated><id>http://localhost:4000/2025/06/09/how-i-created-this-website</id><content type="html" xml:base="http://localhost:4000/2025/06/09/how-i-created-this-website.html"><![CDATA[<h1 id="codespaces">Codespaces</h1>
-<p>I decided to use Github Codespaces as my IDE. Setup was easy. See * Setup in Codespaces https://www.matthewcanderson.com/codespace-for-jekyll/</p>
-
-<h1 id="github-pages-gem">Github-pages gem</h1>
+<h1 id="github-pages-gem">Github Pages gem</h1>
 <p>Instead of the jekyll gem, I used the following dependencies:</p>
 <ul>
   <li>I use this to setup Jekyll: https://github.com/github/pages-gem</li>
@@ -463,48 +300,134 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 <p>I ran <code class="language-plaintext highlighter-rouge">bundle</code> to update the dependencies.</p>
 
-<h1 id="minimal-mistakes-theme">Minimal Mistakes theme</h1>
-<p>I like the Minimal Mistakes theme: https://mmistakes.github.io/minimal-mistakes/docs/installation/#theme-migration</p>
+<h2 id="creating-an-author-profile">Creating an author profile</h2>
+<p>To create  short bio of myself on the website I follow the <a href="https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile">mmistakes instructions on how to create an author profile</a>.</p>
 
-<p>I replaced the default theme in the <code class="language-plaintext highlighter-rouge">gemfile</code> with <code class="language-plaintext highlighter-rouge">gem "minimal-mistakes-jekyll"</code>, ran <code class="language-plaintext highlighter-rouge">bundle</code> to update the dependencies, and configured it as a remote theme (so that Github Actions can use it) by replacing the default theme in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file by <code class="language-plaintext highlighter-rouge">remote_theme: mmistakes/minimal-mistakes@4.27.1</code>. Running <code class="language-plaintext highlighter-rouge">bundle update</code> install the theme, and we are good to go!</p>
+<p>I decided to configure it in the <em>_config.yaml</em>.</p>
+
+<p><img src="/assets/images/posts/website_site_author1.png" alt="Configure the author profile in _config.yaml." class="align-center" /></p>
+
+<p><img src="/assets/images/posts/website_site_author2.png" alt="Configure the author profile in _config.yaml." class="align-center" /></p>
+
+<p>It looks like this with the Minimal Mistakes theme.</p>
+
+<p><img src="/assets/images/posts/website_site_author3.png" alt="The author profile with mmistakes." class="align-center" /></p>
+
+<h2 id="adding-a-footer">Adding a footer</h2>
+<p>You can also configure the footer.</p>
+
+<p><img src="/assets/images/posts/website_footer1.png" alt="Configure the footer in _config.yaml." class="align-center" /></p>
+
+<p>Which then looks like so.</p>
+
+<p><img src="/assets/images/posts/website_footer2.png" alt="The footer with mmistakes." class="align-center" /></p>
+
+<h2 id="creating-a-feed">Creating a feed</h2>
+<p>Jekyll supports generating an <em>atom feed</em> from the blog posts. This is available as a <a href="https://rubygems.org/gems/jekyll-feed/versions/0.17.0?locale=en">gem</a>. Simply add it to the <strong>gemfile</strong>.</p>
+
+<p><img src="/assets/images/posts/website_feed.png" alt="Configure the feed in _config.yaml." class="align-center" /></p>
+
+<h2 id="adding-additional-pages">Adding additional pages</h2>
+<p>The Jekyll and Minimal Mistakes theme provide more functionality than just blog pages. I store my non-blog pages in a separate <em>/_pages/</em> folder.</p>
+
+<p>To include these in the build, I configured the <em>_config.yml</em> accordingly.</p>
+
+<p><img src="/assets/images/posts/website_pages1.png" alt="Configure the /_pages/ folder in _config.yaml." class="align-center" /></p>
+
+<p><img src="/assets/images/posts/website_pages2.png" alt="Configure the /_pages/ folder in _config.yaml." class="align-center" /></p>
+
+<h1 id="this-blog-series">This blog series</h1>
+<p>This blog is part of a larger series:</p>
+
+<ol>
+  <li><a href="/blog/2025/07/14/website-1-github-and-jekyll.html">Github and Jekyll</a></li>
+  <li><a href="/blog/2025/07/14/website-2-codespaces.html">Codespaces</a></li>
+</ol>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="skills" /><summary type="html"><![CDATA[I recently created this website to share my experience and thoughts on software engineering.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I created this website (2) - Codespaces</title><link href="http://localhost:4000/blog/2025/07/14/website-2-codespaces.html" rel="alternate" type="text/html" title="How I created this website (2) - Codespaces" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>http://localhost:4000/blog/2025/07/14/website-2-codespaces</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/website-2-codespaces.html"><![CDATA[<p>I decided to use <a href="https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces">Github Codespaces</a> as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the <em>devcontainer</em> with the development environment.</p>
+
+<p><img src="https://docs.github.com/assets/cb-68851/mw-1440/images/help/codespaces/codespaces-diagram.webp" alt="Codespaces are cloud-hosted Github's devcontainers accessible from VS Code." />
+<em>Codespaces are cloud-hosted Github’s devcontainers accessible from VS Code (image belongs to <a href="https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces">Github Docs</a>).</em></p>
+
+<h1 id="why-codespaces">Why Codespaces?</h1>
+<p>Using <em>devcontainers</em> is the modern approach. The benefits are obvious. No need to install anything locally, all dependencies are available, and git flow is integrated. I can access it from anywhere, on any device (although preferably a proper dev setup with multiple monitors).</p>
+
+<p>It is also a good option to experience working with <a href="https://containers.dev/overview">devcontainers</a> an as engineer. <a href="https://github.blog/engineering/githubs-engineering-team-moved-codespaces/">Github’s engineering team</a> has moved to using Codespaces a few years ago. DevContainers are definitely the way to go as they remove all the hustle with setting up development environments. It is Docker for developers. I am though a bit skeptical using Github Codespaces for professional development, but for a private venture this would be sufficient.</p>
+
+<p>It comes with some drawbacks though. I can only use up to three Codespaces environments, for example if we want to work with multiple branches at the same time (e.g. for prototyping). I need internet, which means that working with Codespaces during travel may not always be possible. Integration with tools that Github does not natively support may be a challenge and require effort to configure or workarounds. It limits the possibility to customize the development environments.</p>
+
+<h1 id="setting-up-codespaces">Setting up Codespaces</h1>
+<p>I used Codespaces to create this website (see <a href="#This-blog-series">the blog series</a> how I did that). The setup was easy.</p>
+
+<!-- See https://www.matthewcanderson.com/codespace-for-jekyll/ -->
+
+<h2 id="create-a-codespaces-environment">Create a Codespaces environment</h2>
+<p>I created the Codespaces environment from the Github repo using thge Code menu and click <strong>Create</strong>.</p>
+
+<p><img src="/assets/images/posts/codespaces_create_environment.png" alt="Creating a codespace from the Github repository." class="align-center" /></p>
+
+<h2 id="add-a-devcontainer">Add a devcontainer</h2>
+<p>Next, I added a devcontainer to the environments using the command palette. Click the <em>Codespaces</em> button in the bottom-left corner of the IDE and run the <strong>Add Dev Container Configuration Files</strong> option. I selected <strong>New Configuration</strong>.</p>
+
+<p><img src="/assets/images/posts/codespaces_create_devcontainer.png" alt="Create the devcontainer." class="align-center" /></p>
+
+<p>I chose the <strong>Jekyll devcontainer</strong> as configuration and the default <strong>bullseye</strong> Debian OS. I didn’t install any additional features.</p>
+
+<p><img src="/assets/images/posts/codespaces_create_devcontainer_jekyll.png" alt="Choosing the Jekyll configuration for the container." class="align-center" /></p>
+
+<p>Next, I rebuild the container when Codespaces prompts it.</p>
+
+<p><img src="/assets/images/posts/codespaces_rebuild_devcontainer.png" alt="Rebuild the container." class="align-center" /></p>
+
+<p>With the development environment available, I could create a new Jekyll website in Codespaces and add additional gems.</p>
+
+<p><img src="/assets/images/posts/codespaces_create_jekyll_website.png" alt="Rebuild the container." class="align-center" /></p>
 
 <h1 id="run-as-localhost">Run as localhost</h1>
 <p>You can give the website a test by running it as localhost in Codespaces using <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code>.</p>
 
-<h1 id="headers">Headers</h1>
+<p><strong>Important:</strong> I had to move the website files from <em>/mywebsite/</em> to the repository root so that Github Pages could find it during build. I haven’t found a way to configure the build to target a custom directory.</p>
 
-<h1 id="mindmap">Mindmap</h1>
+<p class="notice--info">
+<strong>Important:</strong> I had to move the website files from */mywebsite/* to the repository root so that Github Pages could find it during build. I haven't found a way to configure the build to target a custom directory.
+</p>
 
-<h1 id="notice-blocks">Notice blocks</h1>
-<p>https://mmistakes.github.io/minimal-mistakes/post%20formats/post-notice/</p>
+<h1 id="this-blog-series">This blog series</h1>
+<p>This blog is part of a larger series:</p>
 
-<h1 id="images">Images</h1>
-<p>Creative Commons</p>
+<ol>
+  <li><a href="/blog/2025/07/14/website-1-github-and-jekyll.html">Github and Jekyll</a></li>
+  <li><a href="/blog/2025/07/14/website-2-codespaces.html">Codespaces</a></li>
+</ol>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="website" /><summary type="html"><![CDATA[I decided to use Github Codespaces as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the devcontainer with the development environment.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How To Do Use Case Analysis Idesign</title><link href="http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign.html" rel="alternate" type="text/html" title="How To Do Use Case Analysis Idesign" /><published>2025-07-12T11:25:01+00:00</published><updated>2025-07-12T11:25:01+00:00</updated><id>http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign</id><content type="html" xml:base="http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign.html"><![CDATA[<p>see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg</p>
 
-<p>https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use</p>
+<p>First you must always remember that the data’s always dirty.
+When you ask the business for use cases, you will rarely (never) get use cases as we define the term.
+You will get scattered, shotgun information at varying levels of details.
+                                                               i.      You can actually see this in your use case notes.</p>
 
-<h1 id="opengraph">OpenGraph</h1>
+<p>It’s our job to interpret what we hear to find the real requirements.</p>
 
-<h1 id="link-previews">Link Previews</h1>
-<p>https://github.com/ysk24ok/jekyll-linkpreview</p>
+<p>It all starts with interviewing.
+“If there’s one and only one thing the system needs to do, what would it be?”
+                                                               i.      “What’s another thing”</p>
 
-<h1 id="google-analytics">Google Analytics</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                         ii.      …
+</code></pre></div></div>
 
-<h1 id="gems---raindrop">Gems - Raindrop</h1>
+<p>“So that I can create an architecture, I need another level of detail on the first thing.”
+                                                               i.      “Please walk me through the steps.”</p>
 
-<h1 id="books">Books</h1>
-<p>https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491
-https://www.goodreads.com/user/edit?ref=nav_profile_settings</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[Codespaces I decided to use Github Codespaces as my IDE. Setup was easy. See * Setup in Codespaces https://www.matthewcanderson.com/codespace-for-jekyll/]]></summary></entry><entry><title type="html">How I created this website</title><link href="http://localhost:4000/2025/06/09/guardrails-and-principles.html" rel="alternate" type="text/html" title="How I created this website" /><published>2025-06-09T17:24:42+00:00</published><updated>2025-06-09T17:24:42+00:00</updated><id>http://localhost:4000/2025/06/09/guardrails-and-principles</id><content type="html" xml:base="http://localhost:4000/2025/06/09/guardrails-and-principles.html"><![CDATA[<ul>
-  <li>Principles</li>
-  <li>Policies</li>
-  <li>Guidelines</li>
-  <li>Standards</li>
-  <li>Guardrails</li>
-</ul>
+<p>The results of this line of inquiry will look very different than your use case notes.
+You can see this tension in validation suddenly appearing under Write.
+                                                               i.      Is write the only area where the system needs to perform validation?</p>
 
-<p>https://www.reddit.com/r/EnterpriseArchitect/comments/171njxa/standards_vs_guardrails/
-https://www.abrahamberg.com/blog/enterprise-development-guidelines-guardrails-and-golden-paths/
-https://betterfasterhappier.medium.com/agile-guardrails-an-alternative-to-methodologies-bf3e0bafd6eb</p>
+<p>Next you must analyze and interpret.
+Consider that customers are not writing anything.
+What does the writing?
+Are we even doing writing?
+Does the business care about writing? Is this term even in the business vernacular?
+Note that write is geek speak seeping into the business context.
+                                                               i.      And if we let it, errantly into our architecture!</p>
 
-<p>Railways not Guardrails
-https://www.linkedin.com/posts/ghohpe_platforms-guardrails-activity-7336391352366092288-2-A2/</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[Principles Policies Guidelines Standards Guardrails]]></summary></entry></feed>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                         ii.      Just like Get …
+</code></pre></div></div>
+
+<p>What does the business call it?</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg]]></summary></entry></feed>
