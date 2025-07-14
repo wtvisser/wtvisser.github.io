@@ -1,7 +1,7 @@
 ---
 layout:         single
 classes:        wide
-title:          Architecture Gems
+title:          Gems - Architecture
 permalink:      /gems/architecture/
 author_profile: true
 categories:     gems
@@ -19,4 +19,4 @@ image:
 
 Here you find knowledge gems about software architecture.
 
-<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/wtvisser/software-engineering-55980354/embed/search=Architecture"></iframe>
+<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/wtvisser/software-engineering-55980354/embed/search=Architecture&hide=note%2C+tags"></iframe>

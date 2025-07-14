@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Accelerate State of DevOps: Developer Experience - Wicher Visser</title>
-<meta name="description" content="I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience.">
+<!-- begin _includes/seo.html --><title>How I created this website - Wicher Visser</title>
+<meta name="description" content="Codespaces I decided to use Github Codespaces as my IDE. Setup was easy. See * Setup in Codespaces https://www.matthewcanderson.com/codespace-for-jekyll/">
 
 
   <meta name="author" content="Wicher Visser">
@@ -23,28 +23,26 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wicher Visser">
-<meta property="og:title" content="Accelerate State of DevOps: Developer Experience">
-<meta property="og:url" content="http://localhost:4000/blog/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html">
+<meta property="og:title" content="How I created this website">
+<meta property="og:url" content="http://localhost:4000/2025/06/09/how-i-created-this-website.html">
 
 
-  <meta property="og:description" content="I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience.">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/headers/leaf_1280x325.png">
-
-
-
-
-
-  <meta property="article:published_time" content="2025-07-09T00:00:00+00:00">
+  <meta property="og:description" content="Codespaces I decided to use Github Codespaces as my IDE. Setup was easy. See * Setup in Codespaces https://www.matthewcanderson.com/codespace-for-jekyll/">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/blog/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html">
+
+  <meta property="article:published_time" content="2025-06-09T17:24:42+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2025/06/09/how-i-created-this-website.html">
 
 
 
@@ -84,7 +82,7 @@
 
   </head>
 
-  <body class="layout--single wide" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -148,57 +146,6 @@
 
     <div class="initial-content">
       
-  
-
-
-
-
-
-
-
-<div class="page__hero--overlay"
-  style=" background-image: url('/assets/images/headers/leaf_1280x325.png');"
->
-  
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        
-          Accelerate State of DevOps: Developer Experience
-
-        
-      </h1>
-      
-        <p class="page__lead">User-centricity can improve software development
-</p>
-      
-      
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          3 minute read
-        
-      </span>
-    
-  </p>
-
-
-      
-    </div>
-  
-  
-</div>
-
-
 
 
 
@@ -322,101 +269,93 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Accelerate State of DevOps: Developer Experience">
-    <meta itemprop="description" content="I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience.">
-    <meta itemprop="datePublished" content="2025-07-09T00:00:00+00:00">
+    <meta itemprop="headline" content="How I created this website">
+    <meta itemprop="description" content="CodespacesI decided to use Github Codespaces as my IDE. Setup was easy. See * Setup in Codespaces https://www.matthewcanderson.com/codespace-for-jekyll/">
+    <meta itemprop="datePublished" content="2025-06-09T17:24:42+00:00">
     
 
     <div class="page__inner-wrap">
       
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/2025/06/09/how-i-created-this-website.html" itemprop="url">How I created this website
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
 
       <section class="page__content" itemprop="text">
         
-        <p>I recently re-read the <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a>. Here are my thoughts about <strong>Developer Experience</strong>.</p>
+        <h1 id="codespaces">Codespaces</h1>
+<p>I decided to use Github Codespaces as my IDE. Setup was easy. See * Setup in Codespaces https://www.matthewcanderson.com/codespace-for-jekyll/</p>
 
-<h2 id="provide-direction-to-obtain-drive">Provide direction to obtain drive</h2>
+<h1 id="github-pages-gem">Github-pages gem</h1>
+<p>Instead of the jekyll gem, I used the following dependencies:</p>
+<ul>
+  <li>I use this to setup Jekyll: https://github.com/github/pages-gem</li>
+</ul>
 
-<p>Guess what, Software Engineers are human too. <code class="language-plaintext highlighter-rouge">(/sarcasm)</code> The report mentioned:</p>
+<p>in the gemfile, I replaced <code class="language-plaintext highlighter-rouge">gem "jekyll", "~&gt; 4.4.1"</code> with:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+</code></pre></div></div>
 
-<blockquote>
-  <p>A recent survey showed that 93% of workers reported that it’s important to have a job where they feel the work they do is meaningful.</p>
-</blockquote>
+<p>I ran <code class="language-plaintext highlighter-rouge">bundle</code> to update the dependencies.</p>
 
-<p>No surprise, of course. We are motivated and excel to new heights if we see meaning in our work, for example if we can change people or society for the better - however small that may be.</p>
+<h1 id="minimal-mistakes-theme">Minimal Mistakes theme</h1>
+<p>I like the Minimal Mistakes theme: https://mmistakes.github.io/minimal-mistakes/docs/installation/#theme-migration</p>
 
-<p>This means that leaders must provide a clear sense of direction.</p>
+<p>I replaced the default theme in the <code class="language-plaintext highlighter-rouge">gemfile</code> with <code class="language-plaintext highlighter-rouge">gem "minimal-mistakes-jekyll"</code>, ran <code class="language-plaintext highlighter-rouge">bundle</code> to update the dependencies, and configured it as a remote theme (so that Github Actions can use it) by replacing the default theme in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file by <code class="language-plaintext highlighter-rouge">remote_theme: mmistakes/minimal-mistakes@4.27.1</code>. Running <code class="language-plaintext highlighter-rouge">bundle update</code> install the theme, and we are good to go!</p>
 
-<blockquote>
-  <p>Instead of shipping arbitrary features and guessing whether users might use them, developers can rely on user feedback to help them prioritize what to build.</p>
-</blockquote>
+<h1 id="run-as-localhost">Run as localhost</h1>
+<p>You can give the website a test by running it as localhost in Codespaces using <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code>.</p>
 
-<p>Fast feedback is important. Product management and leadership should enable this. This is only possible if we have short feedback cycles, which in turn means we must automate and streamline our software delivery. The classic DevOps approach.</p>
+<h1 id="headers">Headers</h1>
 
-<h2 id="foster-a-culture-of-documentation">Foster a culture of documentation</h2>
+<h1 id="mindmap">Mindmap</h1>
 
-<p>The DORA authors share an interesting position about documentation.</p>
+<h1 id="notice-blocks">Notice blocks</h1>
+<p>https://mmistakes.github.io/minimal-mistakes/post%20formats/post-notice/</p>
 
-<blockquote>
-  <p>The Agile manifesto advocates for “working software over comprehensive documentation”. We continue to find, however, that quality  documentation is a key component of working software.</p>
-</blockquote>
+<h1 id="images">Images</h1>
+<p>Creative Commons</p>
 
-<p>This aligns with my thoughts as an architect. Working software is, of course, our primary deliverable, and so rightly should be prioritized. However, we don’t just write software and deliver once. We have to maintain it, extend it, deploy elsewhere. The team may change, and stakeholders need to be informed regularly. All this requires knowledge to be available about the software and our ways of creating it. Not just in our minds, but more importantly written down somewhere.</p>
+<p>https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use</p>
 
-<p>We should, however, document only that what is important. Technical decisions (using ADRs), architectural aspects, key use cases and requirements, guides and guidelines, etc. We need a healthy documentation culture. It should be part of our development best practices, for example as part of the <em>Definition of Done</em>.</p>
+<h1 id="opengraph">OpenGraph</h1>
 
-<p>We should foster a healthy culture of documentation in our teams by following the practices the DORA authors identified to create quality documentation:</p>
+<h1 id="link-previews">Link Previews</h1>
+<p>https://github.com/ysk24ok/jekyll-linkpreview</p>
 
-<blockquote>
-  <ul>
-    <li>Documenting critical use cases.</li>
-    <li>Taking training in technical writing.</li>
-    <li>Defining ownership and processes to update the documentation.</li>
-    <li>Distributing documentation work within the team.</li>
-    <li>Maintaining documentation as part of the software development lifecycle.</li>
-    <li>Deleting out-of-date or redundant documentation.</li>
-    <li>Recognizing documentation work in performance reviews and promotions.</li>
-  </ul>
-</blockquote>
+<h1 id="google-analytics">Google Analytics</h1>
 
-<p>Documentation in itself has some quality attributes:</p>
+<h1 id="gems---raindrop">Gems - Raindrop</h1>
 
-<blockquote>
-  <p>Measure of quality documentation includes attributes like findability and reliability of the documentation.</p>
-</blockquote>
-
-<div class="notice">
-<p><span style="vertical-align: middle"><i class="fa-solid fa-lightbulb fa-2x" style="color:#FFD700;" aria-hidden="true"></i> I may write a post on how these quality attributes for documentation could be best achieved.</span></p>
-</div>
-
-<p>We have to be careful not to misuse or abuse documentation, i.e. use it for the wrong purposes:</p>
-
-<blockquote>
-  <p>Problematic documentation includes documentation that is created only for bureaucratic purposes, or to paper over mistrust between management and employees. An unhealthy documentation culture can also include writing documentation, but not maintaining or consolidating the documentation.</p>
-</blockquote>
-
-<p>The DORA report highlights that documentation can also help provide user-centricity to the development team:</p>
-
-<blockquote>
-  <p>The combination of good docs and a user-centered approach to software development is a powerful one. […] Documentation helps propagate user signals and feedback across the team and into the product itself. […] If a team has a high quality internal documentation then user signals included in it will have a higher impact on product performance.</p>
-</blockquote>
-
-<h2 id="increases-cross-functional-collaboration">Increases cross-functional collaboration</h2>
-
-<p>The report also mentioned that cross-functional collaboration is important.</p>
-
-<blockquote>
-  <p>Responsibilities extend beyond simply shipping software. This approach to software development can help developers break out of silos, seek alignment, foster teamwork, and create opportunities to learn more from others.</p>
-</blockquote>
-
-<p>This aligns with user-driven (and value-driven) development. Breaking silos is important; software engineering, and everything around it, is too big and complex for a single team to solve in most organizations.</p>
-
-<h1 id="what-else">What else?</h1>
-
-<p>There is more in the DORA report which I won’t be covering here. Those are important topics, such as AI Adoption, Platform Engineering, Shifting Priotities, Transformational Leadership, (and what skills a leader must have to be effective).</p>
-
-<div class="notice">
-<p><a target="_blank" rel="noopener noreferrer" href="https://dora.dev/research/2024/dora-report/" class="btn" title="Accelerate State of DevOps | 2024 DORA Report" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> Accelerate State of DevOps | 2024 DORA Report</span></a></p>
-</div>
+<h1 id="books">Books</h1>
+<p>https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491
+https://www.goodreads.com/user/edit?ref=nav_profile_settings</p>
 
         
       </section>
@@ -428,26 +367,26 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-07-09T00:00:00+00:00">July 9, 2025</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-06-09T17:24:42+00:00">June 9, 2025</time></p>
 
       </footer>
 
       <section class="page__share">
   <h4 class="page__share-title">Share on</h4>
 
-  <a href="https://x.com/intent/tweet?text=Accelerate+State+of+DevOps%3A+Developer+Experience%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2025%2F07%2F09%2Faccelerate-state-of-devops-2024-developer-experience.html" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+  <a href="https://x.com/intent/tweet?text=How+I+created+this+website%20http%3A%2F%2Flocalhost%3A4000%2F2025%2F06%2F09%2Fhow-i-created-this-website.html" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
     <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
   </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2025%2F07%2F09%2Faccelerate-state-of-devops-2024-developer-experience.html" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2025%2F06%2F09%2Fhow-i-created-this-website.html" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
     <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
   </a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2025/06/09/how-i-created-this-website.html" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
     <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
   </a>
 
-  <a href="https://bsky.app/intent/compose?text=Accelerate+State+of+DevOps%3A+Developer+Experience%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2025%2F07%2F09%2Faccelerate-state-of-devops-2024-developer-experience.html" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+  <a href="https://bsky.app/intent/compose?text=How+I+created+this+website%20http%3A%2F%2Flocalhost%3A4000%2F2025%2F06%2F09%2Fhow-i-created-this-website.html" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
     <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
   </a>
 </section>
@@ -456,10 +395,10 @@
       
   <nav class="pagination">
     
-      <a href="/2025/07/03/topics-backlog.html" class="pagination--pager" title="Topics Backlog">Previous</a>
+      <a href="/blog/2025/06/01/welcome-to-my-blog-and-website.html" class="pagination--pager" title="Personal Website and Blog">Previous</a>
     
     
-      <a href="/2025/07/12/how-to-do-use-case-analysis-idesign.html" class="pagination--pager" title="How To Do Use Case Analysis Idesign">Next</a>
+      <a href="/2025/06/09/guardrails-and-principles.html" class="pagination--pager" title="How I created this website">Next</a>
     
   </nav>
 
@@ -513,6 +452,48 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg
+
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html" rel="permalink">Accelerate State of DevOps: Developer Experience
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience.
 
 </p>
   </article>
@@ -602,50 +583,6 @@
 
     <p class="archive__item-excerpt" itemprop="description">
 </p>
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blog/2025/06/28/accelerate-state-of-devops-2024-platform-engineering.html" rel="permalink">Accelerate State of DevOps: Platform Engineering
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          4 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Platform engineering is a sociotechnical
-discipline where engineers focus on
-the intersection of social interactions
-between different teams and the
-technica...</p>
   </article>
 </div>
 
