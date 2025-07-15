@@ -12,6 +12,7 @@ image:
   width: 325
   height: 325  
 ---
+{% include post_category_and_date.html %}
 
 I recently created this website to share my experience and thoughts on software engineering. 
 

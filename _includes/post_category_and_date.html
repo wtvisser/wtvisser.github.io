@@ -1,0 +1,3 @@
+{% capture category_name %}{{ page.categories | first }}{% endcapture %}
+<strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>{{ page.date | date: "%d %B %Y" }}</time> 
+<strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#{{category_name}}">{{category_name}}</a>

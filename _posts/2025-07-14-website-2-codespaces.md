@@ -12,6 +12,7 @@ image:
   width: 325
   height: 325  
 ---
+{% include post_category_and_date.html %}
 
 I decided to use [Github Codespaces](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces) as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the *devcontainer* with the development environment. 
 

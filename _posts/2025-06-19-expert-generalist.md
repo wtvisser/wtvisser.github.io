@@ -3,8 +3,6 @@ layout:     single
 classes:    wide
 title:      "Expert Generalists"
 categories: [Developer Experience]
-tags: 
-  - skills
 
 tagline: "How to build cross-domain expertise and thrive"
 header:
@@ -14,6 +12,8 @@ image:
   width: 325
   height: 325  
 ---
+{% include post_category_and_date.html %}
+
 An article about Expert Generalists was posted by Martin Fowler on his website. 
 
 The article hits home. I consider myself what Martin and co describe an Expert Generalist is. I recognize the characteristics: curiosity-driven, collaborative, and customer (value)-focussed.

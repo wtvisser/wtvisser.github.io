@@ -3,8 +3,6 @@ layout:     single
 classes:    wide
 title:      "Accelerate State of DevOps: Developer Experience"
 categories: [Developer Experience]
-tags: 
-  - engineering
 
 tagline: "User-centricity can improve software development"
 header:
@@ -14,6 +12,7 @@ image:
     width: 325
     height: 325  
 ---
+{% include post_category_and_date.html %}
 
 I recently re-read the [2024 DORA Report](https://dora.dev/research/2024/dora-report/). Here are my thoughts about **Developer Experience**.
 

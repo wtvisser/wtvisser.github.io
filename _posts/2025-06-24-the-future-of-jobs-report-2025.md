@@ -3,8 +3,6 @@ layout:     single
 classes:    wide
 title:      "The Future of Jobs Report 2025"
 categories: [Developer Experience]
-tags: 
-  - skills
 
 tagline: "And what it means for software engineering"
 header:
@@ -14,6 +12,7 @@ image:
     width: 325
     height: 325  
 ---
+{% include post_category_and_date.html %}
 
 The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let's digest.
 
