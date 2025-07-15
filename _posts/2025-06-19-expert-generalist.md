@@ -2,7 +2,7 @@
 layout:     single
 classes:    wide
 title:      "Expert Generalists"
-categories: blog
+categories: [Developer Experience]
 tags: 
   - skills
 

@@ -1,281 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-14T16:00:57+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">Website X Other</title><link href="http://localhost:4000/2025/07/14/website-x-other.html" rel="alternate" type="text/html" title="Website X Other" /><published>2025-07-14T16:00:20+00:00</published><updated>2025-07-14T16:00:20+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-other</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-other.html"><![CDATA[<h1 id="images">Images</h1>
-<p>Creative Commons</p>
-
-<p>https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use</p>
-
-<h1 id="link-previews">Link Previews</h1>
-<p>https://github.com/ysk24ok/jekyll-linkpreview</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[Images Creative Commons https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use]]></summary></entry><entry><title type="html">Website X Books</title><link href="http://localhost:4000/2025/07/14/website-x-books.html" rel="alternate" type="text/html" title="Website X Books" /><published>2025-07-14T16:00:02+00:00</published><updated>2025-07-14T16:00:02+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-books</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-books.html"><![CDATA[<h1 id="books">Books</h1>
-<p>https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491
-https://www.goodreads.com/user/edit?ref=nav_profile_settings</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[Books https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491 https://www.goodreads.com/user/edit?ref=nav_profile_settings]]></summary></entry><entry><title type="html">Website X Raindrop</title><link href="http://localhost:4000/2025/07/14/website-x-raindrop.html" rel="alternate" type="text/html" title="Website X Raindrop" /><published>2025-07-14T15:40:24+00:00</published><updated>2025-07-14T15:40:24+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-raindrop</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-raindrop.html"><![CDATA[]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Website X Mindmap</title><link href="http://localhost:4000/2025/07/14/website-x-mindmap.html" rel="alternate" type="text/html" title="Website X Mindmap" /><published>2025-07-14T15:40:12+00:00</published><updated>2025-07-14T15:40:12+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-mindmap</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-mindmap.html"><![CDATA[]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Website X Google Analytics</title><link href="http://localhost:4000/2025/07/14/website-x-google-analytics.html" rel="alternate" type="text/html" title="Website X Google Analytics" /><published>2025-07-14T15:40:00+00:00</published><updated>2025-07-14T15:40:00+00:00</updated><id>http://localhost:4000/2025/07/14/website-x-google-analytics</id><content type="html" xml:base="http://localhost:4000/2025/07/14/website-x-google-analytics.html"><![CDATA[]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Accelerate State of DevOps 2024 (3): Platform Engineering</title><link href="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-3-platform-engineering.html" rel="alternate" type="text/html" title="Accelerate State of DevOps 2024 (3): Platform Engineering" /><published>2025-07-14T15:16:00+00:00</published><updated>2025-07-14T15:16:00+00:00</updated><id>http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-3-platform-engineering</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-3-platform-engineering.html"><![CDATA[<p>Platform engineering is a sociotechnical
-discipline where engineers focus on
-the intersection of social interactions
-between different teams and the
-technical aspects of automation, selfservice,
-and repeatability of processes.</p>
-
-<p>In platform engineering, a lot of energy
-and focus is spent on improving the
-developer experience by building golden
-paths, which are highly-automated,
-self-service workflows that users of
-the platform use when interacting
-with resources required to deliver and
-operate applications. Their purpose is
-to abstract away the complexities of
-building and delivering software such
-that the developer only needs to worry
-about their code.</p>
-
-<p>Some examples of the tasks
-automated through golden paths
-include new application provisioning,
-database provisioning, schema
-management, test execution, build and
-deployment infrastructure provisioning,
-and DNS management.</p>
-
-<p>Concepts in platform engineering: moving a capability down (sometimes
-called “shifting down”)2 into a shared
-system</p>
-
-<p>A key factor in the success is to
-approach platform engineering with
-user-centeredness (users in the context
-of an internal developer platform are
-developers), developer independence,
-and a product mindset.</p>
-
-<p>Internal developer platform
-users had 8% higher levels of individual
-productivity and 10% higher levels of
-team performance. Additionally, an
-organization’s software delivery and
-operations performance increases
-6% when using a platform. However,
-these gains do not come without
-some drawbacks. Throughput and
-change stability saw decreases of 8%
-and 14%, respectively, which was a
-surprising result.</p>
-
-<p>At both the team and individual level we
-see a 5% improvement in productivity
-when users of the platform are able to
-complete their tasks without involving an
-enabling team. This finding points back
-to one of the key principles of platform
-engineering, focusing on enabling selfservice
-workflows.</p>
-
-<p>For platform teams, this is key because
-it points to an important part of the
-platform engineering process, collecting
-feedback from users. Survey responses
-did not indicate which forms of feedback
-are most effective, but common
-methods are informal conversations
-and issue trackers, followed by ongoing
-co-development, surveys, telemetry,
-and interviews.</p>
-
-<h1 id="the-unexpected-downside">The unexpected downside</h1>
-
-<p>We also
-found that throughput and change
-stability decreased.</p>
-
-<p><strong>Throughput</strong>
-the added machinery that changes
-need to pass through before getting
-deployed to production decreases the
-overall throughput of changes. In general,
-when an internal developer platform is
-being used to build and deliver software,
-there is usually an increase in the number
-of “handoffs” between systems and
-implicitly teams.</p>
-
-<p>Second, for respondents who reported,
-they are required to “exclusively use the
-platform to perform tasks for the entire
-app lifecycle,” there was a 6% decrease
-in throughput.</p>
-
-<p>To counter this it is important to be
-user-centered and work toward
-user independence in your platform
-engineering initiatives.</p>
-
-<p>–&gt; Developers and team must ahve a level of autonomy to choose standard platform tooling and augment it with their own. Interface is important. Independence is important.</p>
-
-<p><strong>Change instability and burnout</strong></p>
-
-<p>When considering the stability of the
-changes to applications being developed
-and operated when using an internal
-developer platform, we observed a
-surprising 14% decrease in change
-stability. This indicates that the change
-failure rate and rate of rework are
-significantly increased when a platform
-is being used.</p>
-
-<p>Even more interesting, in the results
-we discovered that instability in
-combination with a platform is linked
-to higher levels of burnout.</p>
-
-<p>–&gt; too much stress due to high cognitive load, changing focus, pressure. Reduce this complexity. This also explains the hypotheses below (instability)</p>
-
-<p>the platform enables developers
-and teams to push changes with a higher
-degree of confidence that if the change
-is bad, it can be quickly remediated. In
-this instance the higher level of instability
-isn’t necessarily a bad thing since
-the platform is empowering teams to
-experiment and deliver changes, which
-results in an increased level of change
-failure and rework</p>
-
-<p>A second idea is that the platform
-isn’t effective at ensuring the quality
-of changes and/or deployments
-to production.</p>
-
-<p>With this
-hypothesis, platform engineering is
-symptomatic of an organization with
-burnout and change instability.</p>
-
-<p>–&gt;  I doubt that ans isnt my experience. This is not the main reason to start on a platform team.</p>
-
-<p><strong>Balancing the Trade-offs</strong></p>
-
-<p>First, prioritize platform functionality
-that enables developer independence
-and self-service capabilities. When
-doing this, pay attention to the balance
-between exclusively requiring the
-platform to be used for all aspects of
-the application lifecycle, which could
-hinder developer independence.</p>
-
-<p>–&gt; the below recommendation aligns with my thought above</p>
-
-<p>As good practice, a platform should
-provide methods for users of a platform
-to break out of the tools and automations
-provided in the platform, which
-contributes to independence, however,
-it comes at the cost of complexity.
-This trade-off can be mitigated with a
-dedicated platform team that actively
-collaborates with and collects feedback
-from users of the platform.</p>
-
-<p>Second, carefully monitor the instability
-of your application changes and try
-to understand whether the instability
-being experienced is intentional or
-not. Platforms have the potential to
-unlock experimentation in the terms of
-instability, increase productivity, and
-improve performance at scale.</p>
-
-<h1 id="links">Links</h1>
-<p>published October 2024
-https://dora.dev/research/2024/dora-report/</p>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="platform" /><summary type="html"><![CDATA[Platform engineering is a sociotechnical discipline where engineers focus on the intersection of social interactions between different teams and the technical aspects of automation, selfservice, and repeatability of processes.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accelerate State of DevOps 2024 (2): AI Adoption</title><link href="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-2-ai-adoption.html" rel="alternate" type="text/html" title="Accelerate State of DevOps 2024 (2): AI Adoption" /><published>2025-07-14T15:15:49+00:00</published><updated>2025-07-14T15:15:49+00:00</updated><id>http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-2-ai-adoption</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/accelerate-state-of-devops-2024-2-ai-adoption.html"><![CDATA[<h1 id="excerpts-from-summary-findings">Excerpts from summary findings</h1>
-
-<p><strong>High-levels of software delivery performance are achievable</strong>
-The highest performing teams excel across all four software delivery metrics (change lead time, deployment frequency, change fail percentage, and failed deployment recovery  time) while the lowest performers perform poorly across all four. We see teams from every industry vertical in each of the performance clusters.</p>
-
-<p><strong>Platform engineering can boost productivity</strong>
-Platform engineering has a positive impact on productivity and organizational performance, but there are some cautionary signals for software delivery performance.</p>
-
-<p><strong>Cloud enables infrastructure flexibility</strong>
-Flexible infrastructure can increase organizational performance. However, moving to the cloud without adopting the flexibility that cloud has to offer may be more harmful than  emaining in the data center. Transforming approaches, processes, and technologies is required for a successful migration.</p>
-
-<h1 id="the-promising-impact-of-ai-on-development-workflows">The promising impact of AI on development workflows</h1>
-<p><strong>Code Complexity</strong>
-The degree to which code’s intricacy and sophistication hinders productivity.</p>
-
-<p><strong>Technical Debt</strong>
-The extent to which existing technical debt within the primary application or service has hindered productivity over the past six months.</p>
-
-<p><strong>Code review speed</strong>
-The average time required to complete a code review for the primary application or service.</p>
-
-<p><strong>Approval speed</strong>
-The typical duration from proposing a code change to receiving approval for production use in the primary application or service.</p>
-
-<p><strong>Cross-functional (XFN) coordination</strong>
-The level of agreement with the statement: “Over the last three months, I have been able to effectively collaborate with cross-functional team members.”</p>
-
-<p><strong>C</strong>ode quality**
-The level of satisfaction or dissatisfaction with the quality of code underlying the primary service or application in the last six months.</p>
-
-<p><strong>Documentation quality</strong>
-The perception of internal documentation (manuals, readmes, code comments) in terms of its reliability, findability, updatedness, and ability to provide support.</p>
-
-<p><img src="/assets/images/posts/improvements_with_25percent_AI_adoption.jpg" alt="Improvements with 25% AI adoption" class="align-center" /></p>
-
-<p>AI seems to improve code quality and reduce code complexity (Figure 9). When combined with some potential refactoring of old code, the high-quality, AI-generated code could  ead to an overall better codebase. This codebase might be additionally improved by having better access to quality documentation</p>
-
-<p>Better code is easier to review and
-approve. Combined with AI-assisted
-code reviews, we can get faster reviews
-and approvals,</p>
-
-<h1 id="ai-is-hurting-delivery-performance">AI is hurting delivery performance</h1>
-
-<p>Contrary to our expectations, our
-findings indicate that AI adoption is
-negatively impacting software delivery
-performance</p>
-
-<p>we hypothesize that the fundamental
-paradigm shift that AI has produced in
-terms of respondent productivity and
-code generation speed may have caused
-the field to forget one of DORA’s most
-basic principles—the importance of
-small batch sizes. That is, since AI allows
-respondents to produce a much greater
-amount of code in the same amount
-of time, it is possible, even likely, that
-changelists are growing in size. DORA
-has consistently shown that larger
-changes are slower and more prone to
-creating instability.</p>
-
-<p>Considered together, our data
-suggest that improving the
-development process does not
-automatically improve software
-delivery—at least not without proper
-adherence to the basics of successful
-software delivery, like small batch sizes
-and robust testing mechanisms.</p>
-
-<p>–&gt; Takeaway: engineering rigor becomes even more important</p>
-
-<h1 id="high-performing-teams-and-organizations-use-ai-but-products-dont-seem-to-benefit">High-performing teams and organizations use AI, but products don’t seem to benefit.</h1>
-
-<p><strong>Product performance</strong>
-This is a factor score that accounts for the usability, functionality, value, availability, performance (for example, latency), and security of a product.</p>
-
-<p>Product performance, however, does
-not seem to have an obvious association
-with AI adoption.</p>
-
-<blockquote>
-  <p>NFRs and quality characteristics determine product quality much more so than what is currently gained with AI (improvements in development, such as code quality, documentation, and delivery speed)</p>
-</blockquote>
-
-<h1 id="links">Links</h1>
-<p>published October 2024
-https://dora.dev/research/2024/dora-report/</p>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="ai" /><summary type="html"><![CDATA[Excerpts from summary findings]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I created this website (1) - Jekyll and Github Pages</title><link href="http://localhost:4000/blog/2025/07/14/website-1-github-and-jekyll.html" rel="alternate" type="text/html" title="How I created this website (1) - Jekyll and Github Pages" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>http://localhost:4000/blog/2025/07/14/website-1-github-and-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/website-1-github-and-jekyll.html"><![CDATA[<p>I recently created this website to share my experience and thoughts on software engineering.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-15T13:30:41+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">How I created this website (1) - Jekyll and Github Pages</title><link href="http://localhost:4000/website/2025/07/14/website-1-github-and-jekyll.html" rel="alternate" type="text/html" title="How I created this website (1) - Jekyll and Github Pages" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>http://localhost:4000/website/2025/07/14/website-1-github-and-jekyll</id><content type="html" xml:base="http://localhost:4000/website/2025/07/14/website-1-github-and-jekyll.html"><![CDATA[<p>I recently created this website to share my experience and thoughts on software engineering.</p>
 
 <p>I was looking for an easy way to create a website. I do not have much time at hands, but also enjoy coding and customizing. <a href="https://pages.github.com/">Github Pages</a> is a popular way to host static websites. It seems to provide what I need, at least for the time being.</p>
 
@@ -337,12 +60,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 <p><img src="/assets/images/posts/website_pages2.png" alt="Configure the /_pages/ folder in _config.yaml." class="align-center" /></p>
 
 <h1 id="this-blog-series">This blog series</h1>
-<p>This blog is part of a larger series:</p>
-
-<ol>
-  <li><a href="/blog/2025/07/14/website-1-github-and-jekyll.html">Github and Jekyll</a></li>
-  <li><a href="/blog/2025/07/14/website-2-codespaces.html">Codespaces</a></li>
-</ol>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="skills" /><summary type="html"><![CDATA[I recently created this website to share my experience and thoughts on software engineering.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I created this website (2) - Codespaces</title><link href="http://localhost:4000/blog/2025/07/14/website-2-codespaces.html" rel="alternate" type="text/html" title="How I created this website (2) - Codespaces" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>http://localhost:4000/blog/2025/07/14/website-2-codespaces</id><content type="html" xml:base="http://localhost:4000/blog/2025/07/14/website-2-codespaces.html"><![CDATA[<p>I decided to use <a href="https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces">Github Codespaces</a> as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the <em>devcontainer</em> with the development environment.</p>
+<p>This blog is part of a larger series:</p>]]></content><author><name>Wicher Visser</name></author><category term="[&quot;Website&quot;]" /><summary type="html"><![CDATA[I recently created this website to share my experience and thoughts on software engineering.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I created this website (2) - Codespaces</title><link href="http://localhost:4000/website/2025/07/14/website-2-codespaces.html" rel="alternate" type="text/html" title="How I created this website (2) - Codespaces" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>http://localhost:4000/website/2025/07/14/website-2-codespaces</id><content type="html" xml:base="http://localhost:4000/website/2025/07/14/website-2-codespaces.html"><![CDATA[<p>I decided to use <a href="https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces">Github Codespaces</a> as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the <em>devcontainer</em> with the development environment.</p>
 
 <p><img src="https://docs.github.com/assets/cb-68851/mw-1440/images/help/codespaces/codespaces-diagram.webp" alt="Codespaces are cloud-hosted Github's devcontainers accessible from VS Code." />
 <em>Codespaces are cloud-hosted Github’s devcontainers accessible from VS Code (image belongs to <a href="https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces">Github Docs</a>).</em></p>
@@ -360,7 +78,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 <!-- See https://www.matthewcanderson.com/codespace-for-jekyll/ -->
 
 <h2 id="create-a-codespaces-environment">Create a Codespaces environment</h2>
-<p>I created the Codespaces environment from the Github repo using thge Code menu and click <strong>Create</strong>.</p>
+<p>I created the Codespaces environment from the Github repo using the Code menu and click <strong>Create</strong>.</p>
 
 <p><img src="/assets/images/posts/codespaces_create_environment.png" alt="Creating a codespace from the Github repository." class="align-center" /></p>
 
@@ -391,43 +109,124 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 </p>
 
 <h1 id="this-blog-series">This blog series</h1>
-<p>This blog is part of a larger series:</p>
+<p>This blog is part of a larger series:</p>]]></content><author><name>Wicher Visser</name></author><category term="[&quot;Website&quot;]" /><summary type="html"><![CDATA[I decided to use Github Codespaces as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the devcontainer with the development environment.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accelerate State of DevOps: Developer Experience</title><link href="http://localhost:4000/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html" rel="alternate" type="text/html" title="Accelerate State of DevOps: Developer Experience" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-07-09T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html"><![CDATA[<p>I recently re-read the <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a>. Here are my thoughts about <strong>Developer Experience</strong>.</p>
 
-<ol>
-  <li><a href="/blog/2025/07/14/website-1-github-and-jekyll.html">Github and Jekyll</a></li>
-  <li><a href="/blog/2025/07/14/website-2-codespaces.html">Codespaces</a></li>
-</ol>]]></content><author><name>Wicher Visser</name></author><category term="blog" /><category term="website" /><summary type="html"><![CDATA[I decided to use Github Codespaces as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the devcontainer with the development environment.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How To Do Use Case Analysis Idesign</title><link href="http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign.html" rel="alternate" type="text/html" title="How To Do Use Case Analysis Idesign" /><published>2025-07-12T11:25:01+00:00</published><updated>2025-07-12T11:25:01+00:00</updated><id>http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign</id><content type="html" xml:base="http://localhost:4000/2025/07/12/how-to-do-use-case-analysis-idesign.html"><![CDATA[<p>see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg</p>
+<h2 id="provide-direction-to-obtain-drive">Provide direction to obtain drive</h2>
 
-<p>First you must always remember that the data’s always dirty.
-When you ask the business for use cases, you will rarely (never) get use cases as we define the term.
-You will get scattered, shotgun information at varying levels of details.
-                                                               i.      You can actually see this in your use case notes.</p>
+<p>Guess what, Software Engineers are human too. <code class="language-plaintext highlighter-rouge">(/sarcasm)</code> The report mentioned:</p>
 
-<p>It’s our job to interpret what we hear to find the real requirements.</p>
+<blockquote>
+  <p>A recent survey showed that 93% of workers reported that it’s important to have a job where they feel the work they do is meaningful.</p>
+</blockquote>
 
-<p>It all starts with interviewing.
-“If there’s one and only one thing the system needs to do, what would it be?”
-                                                               i.      “What’s another thing”</p>
+<p>No surprise, of course. We are motivated and excel to new heights if we see meaning in our work, for example if we can change people or society for the better - however small that may be.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                         ii.      …
-</code></pre></div></div>
+<p>This means that leaders must provide a clear sense of direction.</p>
 
-<p>“So that I can create an architecture, I need another level of detail on the first thing.”
-                                                               i.      “Please walk me through the steps.”</p>
+<blockquote>
+  <p>Instead of shipping arbitrary features and guessing whether users might use them, developers can rely on user feedback to help them prioritize what to build.</p>
+</blockquote>
 
-<p>The results of this line of inquiry will look very different than your use case notes.
-You can see this tension in validation suddenly appearing under Write.
-                                                               i.      Is write the only area where the system needs to perform validation?</p>
+<p>Fast feedback is important. Product management and leadership should enable this. This is only possible if we have short feedback cycles, which in turn means we must automate and streamline our software delivery. The classic DevOps approach.</p>
 
-<p>Next you must analyze and interpret.
-Consider that customers are not writing anything.
-What does the writing?
-Are we even doing writing?
-Does the business care about writing? Is this term even in the business vernacular?
-Note that write is geek speak seeping into the business context.
-                                                               i.      And if we let it, errantly into our architecture!</p>
+<h2 id="foster-a-culture-of-documentation">Foster a culture of documentation</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                         ii.      Just like Get …
-</code></pre></div></div>
+<p>The DORA authors share an interesting position about documentation.</p>
 
-<p>What does the business call it?</p>]]></content><author><name>Wicher Visser</name></author><summary type="html"><![CDATA[see https://groups.google.com/g/idesign-alumni/c/XhtUkfxawkg]]></summary></entry></feed>
+<blockquote>
+  <p>The Agile manifesto advocates for “working software over comprehensive documentation”. We continue to find, however, that quality  documentation is a key component of working software.</p>
+</blockquote>
+
+<p>This aligns with my thoughts as an architect. Working software is, of course, our primary deliverable, and so rightly should be prioritized. However, we don’t just write software and deliver once. We have to maintain it, extend it, deploy elsewhere. The team may change, and stakeholders need to be informed regularly. All this requires knowledge to be available about the software and our ways of creating it. Not just in our minds, but more importantly written down somewhere.</p>
+
+<p>We should, however, document only that what is important. Technical decisions (using ADRs), architectural aspects, key use cases and requirements, guides and guidelines, etc. We need a healthy documentation culture. It should be part of our development best practices, for example as part of the <em>Definition of Done</em>.</p>
+
+<p>We should foster a healthy culture of documentation in our teams by following the practices the DORA authors identified to create quality documentation:</p>
+
+<blockquote>
+  <ul>
+    <li>Documenting critical use cases.</li>
+    <li>Taking training in technical writing.</li>
+    <li>Defining ownership and processes to update the documentation.</li>
+    <li>Distributing documentation work within the team.</li>
+    <li>Maintaining documentation as part of the software development lifecycle.</li>
+    <li>Deleting out-of-date or redundant documentation.</li>
+    <li>Recognizing documentation work in performance reviews and promotions.</li>
+  </ul>
+</blockquote>
+
+<p>Documentation in itself has some quality attributes:</p>
+
+<blockquote>
+  <p>Measure of quality documentation includes attributes like findability and reliability of the documentation.</p>
+</blockquote>
+
+<div class="notice">
+<p><span style="vertical-align: middle"><i class="fa-solid fa-lightbulb fa-2x" style="color:#FFD700;" aria-hidden="true"></i> I may write a post on how these quality attributes for documentation could be best achieved.</span></p>
+</div>
+
+<p>We have to be careful not to misuse or abuse documentation, i.e. use it for the wrong purposes:</p>
+
+<blockquote>
+  <p>Problematic documentation includes documentation that is created only for bureaucratic purposes, or to paper over mistrust between management and employees. An unhealthy documentation culture can also include writing documentation, but not maintaining or consolidating the documentation.</p>
+</blockquote>
+
+<p>The DORA report highlights that documentation can also help provide user-centricity to the development team:</p>
+
+<blockquote>
+  <p>The combination of good docs and a user-centered approach to software development is a powerful one. […] Documentation helps propagate user signals and feedback across the team and into the product itself. […] If a team has a high quality internal documentation then user signals included in it will have a higher impact on product performance.</p>
+</blockquote>
+
+<h2 id="increases-cross-functional-collaboration">Increases cross-functional collaboration</h2>
+
+<p>The report also mentioned that cross-functional collaboration is important.</p>
+
+<blockquote>
+  <p>Responsibilities extend beyond simply shipping software. This approach to software development can help developers break out of silos, seek alignment, foster teamwork, and create opportunities to learn more from others.</p>
+</blockquote>
+
+<p>This aligns with user-driven (and value-driven) development. Breaking silos is important; software engineering, and everything around it, is too big and complex for a single team to solve in most organizations.</p>
+
+<h1 id="what-else">What else?</h1>
+
+<p>There is more in the DORA report which I won’t be covering here. Those are important topics, such as AI Adoption, Platform Engineering, Shifting Priotities, Transformational Leadership, (and what skills a leader must have to be effective).</p>
+
+<div class="notice">
+<p><a target="_blank" rel="noopener noreferrer" href="https://dora.dev/research/2024/dora-report/" class="btn" title="Accelerate State of DevOps | 2024 DORA Report" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> Accelerate State of DevOps | 2024 DORA Report</span></a></p>
+</div>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><category term="engineering" /><summary type="html"><![CDATA[I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Future of Jobs Report 2025</title><link href="http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025.html" rel="alternate" type="text/html" title="The Future of Jobs Report 2025" /><published>2025-06-24T00:00:00+00:00</published><updated>2025-06-24T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025.html"><![CDATA[<p>The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.</p>
+
+<p>Below are the relevant excerpts from the report <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/">digest</a> (bold emphasis is my own).</p>
+
+<blockquote>
+  <p>Technology-related roles are <strong>the fastest-growing jobs</strong> in percentage terms, including <strong>Big Data Specialists</strong>, Fintech Engineers, <strong>AI and Machine Learning Specialists</strong> and <strong>Software and Application Developers</strong>. Green and energy transition roles, including Autonomous and Electric Vehicle Specialists, Environmental Engineers, and Renewable Energy Engineers, also feature within the top fastest-growing roles.</p>
+</blockquote>
+
+<p>What does this tell us? Unsprisingly, following the trend and hype, AI and Machine Learning skills are highly sought after. More importantly however, to make use of these new AI capabilities,  there is also a high demand in big data engineering skills and related general software and application development expertise.</p>
+
+<p>The digest continues:</p>
+
+<blockquote>
+  <p><strong>Analytical thinking remains the most sought-after core skill</strong> among employers, with seven out of 10 companies considering it as essential in 2025. This is followed by <strong>resilience, flexibility and agility</strong>, along with <strong>leadership</strong> and social influence.</p>
+</blockquote>
+
+<p>I cannot agree more. Analytical thinking - and its bigger sister, systems thinking - have always been critical skills. With the increasing prevalence of AI-assisted coding tools like Cursor, Claude, and various Copilots this has become even more relevant. The shift from code, what started off with punch cards and assembly and progressed to  high-level languages and concepts, continous to play out. Software development will focus on design specifications and testing. This will entail for a large part modeling and reasoning, which require exactly these analytical skills.</p>
+
+<blockquote>
+  <p>AI and big data top the list of fastest-growing skills, followed closely by networks and cybersecurity as well as technology literacy. Complementing these technology-related skills, creative thinking, resilience, flexibility and agility, along with <strong>curiosity and lifelong learning</strong>, are also expected to continue to rise in importance over the 2025-2030 period. Conversely, manual dexterity, endurance and precision stand out with notable net declines in skills demand, with 24% of respondents foreseeing a decrease in their importance.</p>
+</blockquote>
+
+<p>We can only keep pace if we continue to improve ourselves. Rentlessly learning, inspired by true curiosity, drives the best of us forward. It is not for everyone, but as leaders we must foster this culture and enable and coach others.</p>
+
+<div class="notice">
+<p><a target="_blank" rel="noopener noreferrer" href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" class="btn" title="The Future of Job Reports 2025 | World Economic Forum" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> The Future of Job Reports 2025 | World Economic Forum</span></a></p>
+</div>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><category term="skills" /><summary type="html"><![CDATA[The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Expert Generalists</title><link href="http://localhost:4000/developer%20experience/2025/06/19/expert-generalist.html" rel="alternate" type="text/html" title="Expert Generalists" /><published>2025-06-19T00:00:00+00:00</published><updated>2025-06-19T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/06/19/expert-generalist</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/06/19/expert-generalist.html"><![CDATA[<p>An article about Expert Generalists was posted by Martin Fowler on his website.</p>
+
+<p>The article hits home. I consider myself what Martin and co describe an Expert Generalist is. I recognize the characteristics: curiosity-driven, collaborative, and customer (value)-focussed.</p>
+
+<p>The few words about recruiting focus also resonate: valuing understanding concepts, effectively decomposing both systems and work, test (and quality) oriented, and collaborative. That is what I look for (besides some other traits) in engineers, rather than language and tool specifics that lose their value over time.</p>
+
+<div class="notice">
+<p><a target="_blank" rel="noopener noreferrer" href="https://martinfowler.com/articles/expert-generalist.html" class="btn" title="Expert Generalist | Martin Fowler" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> Expert Generalist | Martin Fowler</span></a></p>
+</div>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><category term="skills" /><summary type="html"><![CDATA[An article about Expert Generalists was posted by Martin Fowler on his website.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/sleepdungeon/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Personal Website and Blog</title><link href="http://localhost:4000/website/2025/06/01/welcome-to-my-blog-and-website.html" rel="alternate" type="text/html" title="Personal Website and Blog" /><published>2025-06-01T00:00:00+00:00</published><updated>2025-06-01T00:00:00+00:00</updated><id>http://localhost:4000/website/2025/06/01/welcome-to-my-blog-and-website</id><content type="html" xml:base="http://localhost:4000/website/2025/06/01/welcome-to-my-blog-and-website.html"><![CDATA[<p>Welcome to my new personal web site and blog. Here, I plan to communicate updates about my activities and ponderings.</p>
+
+<p>Feel free to browse around. Contact me via <a href="/about/">this page</a>.</p>]]></content><author><name>Wicher Visser</name></author><category term="Website" /><summary type="html"><![CDATA[Welcome to my new personal web site and blog. Here, I plan to communicate updates about my activities and ponderings.]]></summary></entry></feed>

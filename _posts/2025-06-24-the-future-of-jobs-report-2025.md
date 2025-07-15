@@ -2,7 +2,7 @@
 layout:     single
 classes:    wide
 title:      "The Future of Jobs Report 2025"
-categories: blog
+categories: [Developer Experience]
 tags: 
   - skills
 

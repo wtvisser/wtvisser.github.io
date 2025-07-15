@@ -2,9 +2,7 @@
 layout:     single
 classes:    wide
 title:      "How I created this website (2) - Codespaces"
-categories: blog
-tags: 
-  - website
+category:   [Website]
 
 tagline: ""
 header:
@@ -33,7 +31,7 @@ I used Codespaces to create this website (see [the blog series](#This-blog-serie
 <!-- See https://www.matthewcanderson.com/codespace-for-jekyll/ -->
 
 ## Create a Codespaces environment
-I created the Codespaces environment from the Github repo using thge Code menu and click **Create**.
+I created the Codespaces environment from the Github repo using the Code menu and click **Create**.
 
 ![Creating a codespace from the Github repository.](/assets/images/posts/codespaces_create_environment.png){: .align-center}
 
@@ -66,5 +64,3 @@ You can give the website a test by running it as localhost in Codespaces using `
 # This blog series
 This blog is part of a larger series:
 
-1. [Github and Jekyll]({% link _posts/2025-07-14-website-1-github-and-jekyll.md %})
-2. [Codespaces]({% link _posts/2025-07-14-website-2-codespaces.md %})

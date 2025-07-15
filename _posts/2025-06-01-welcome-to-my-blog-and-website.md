@@ -2,7 +2,7 @@
 layout:     single
 classes:    wide
 title:      "Personal Website and Blog"
-categories: blog
+categories: [Website]
 tages:
   - website
 

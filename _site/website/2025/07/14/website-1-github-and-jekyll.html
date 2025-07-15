@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>The Future of Jobs Report 2025 - Wicher Visser</title>
-<meta name="description" content="The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.">
+<!-- begin _includes/seo.html --><title>How I created this website (1) - Jekyll and Github Pages - Wicher Visser</title>
+<meta name="description" content="I recently created this website to share my experience and thoughts on software engineering.">
 
 
   <meta name="author" content="Wicher Visser">
@@ -23,11 +23,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wicher Visser">
-<meta property="og:title" content="The Future of Jobs Report 2025">
-<meta property="og:url" content="http://localhost:4000/blog/2025/06/24/the-future-of-jobs-report-2025.html">
+<meta property="og:title" content="How I created this website (1) - Jekyll and Github Pages">
+<meta property="og:url" content="http://localhost:4000/website/2025/07/14/website-1-github-and-jekyll.html">
 
 
-  <meta property="og:description" content="The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.">
+  <meta property="og:description" content="I recently created this website to share my experience and thoughts on software engineering.">
 
 
 
@@ -37,14 +37,14 @@
 
 
 
-  <meta property="article:published_time" content="2025-06-24T00:00:00+00:00">
+  <meta property="article:published_time" content="2025-07-14T00:00:00+00:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/blog/2025/06/24/the-future-of-jobs-report-2025.html">
+<link rel="canonical" href="http://localhost:4000/website/2025/07/14/website-1-github-and-jekyll.html">
 
 
 
@@ -163,12 +163,12 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          The Future of Jobs Report 2025
+          How I created this website (1) - Jekyll and Github Pages
 
         
       </h1>
       
-        <p class="page__lead">And what it means for software engineering
+        <p class="page__lead">
 </p>
       
       
@@ -322,9 +322,9 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="The Future of Jobs Report 2025">
-    <meta itemprop="description" content="The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.">
-    <meta itemprop="datePublished" content="2025-06-24T00:00:00+00:00">
+    <meta itemprop="headline" content="How I created this website (1) - Jekyll and Github Pages">
+    <meta itemprop="description" content="I recently created this website to share my experience and thoughts on software engineering.">
+    <meta itemprop="datePublished" content="2025-07-14T00:00:00+00:00">
     
 
     <div class="page__inner-wrap">
@@ -332,33 +332,70 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.</p>
+        <p>I recently created this website to share my experience and thoughts on software engineering.</p>
 
-<p>Below are the relevant excerpts from the report <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/">digest</a> (bold emphasis is my own).</p>
+<p>I was looking for an easy way to create a website. I do not have much time at hands, but also enjoy coding and customizing. <a href="https://pages.github.com/">Github Pages</a> is a popular way to host static websites. It seems to provide what I need, at least for the time being.</p>
 
-<blockquote>
-  <p>Technology-related roles are <strong>the fastest-growing jobs</strong> in percentage terms, including <strong>Big Data Specialists</strong>, Fintech Engineers, <strong>AI and Machine Learning Specialists</strong> and <strong>Software and Application Developers</strong>. Green and energy transition roles, including Autonomous and Electric Vehicle Specialists, Environmental Engineers, and Renewable Energy Engineers, also feature within the top fastest-growing roles.</p>
-</blockquote>
+<p>Github Pages works with Jekyll. You can <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll">use Jekyll to create a GitHub Pages site</a> from your own Github repository.</p>
 
-<p>What does this tell us? Unsprisingly, following the trend and hype, AI and Machine Learning skills are highly sought after. More importantly however, to make use of these new AI capabilities,  there is also a high demand in big data engineering skills and related general software and application development expertise.</p>
+<h1 id="minima-as-the-jekyll-theme">Minima as the Jekyll theme</h1>
+<p>I like the Minimal Mistakes theme: https://mmistakes.github.io/minimal-mistakes/docs/installation/#theme-migration</p>
 
-<p>The digest continues:</p>
+<p>I replaced the default theme in the <code class="language-plaintext highlighter-rouge">gemfile</code> with <code class="language-plaintext highlighter-rouge">gem "minimal-mistakes-jekyll"</code>, ran <code class="language-plaintext highlighter-rouge">bundle</code> to update the dependencies, and configured it as a remote theme (so that Github Actions can use it) by replacing the default theme in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file by <code class="language-plaintext highlighter-rouge">remote_theme: mmistakes/minimal-mistakes@4.27.1</code>. Running <code class="language-plaintext highlighter-rouge">bundle update</code> install the theme, and we are good to go!</p>
 
-<blockquote>
-  <p><strong>Analytical thinking remains the most sought-after core skill</strong> among employers, with seven out of 10 companies considering it as essential in 2025. This is followed by <strong>resilience, flexibility and agility</strong>, along with <strong>leadership</strong> and social influence.</p>
-</blockquote>
+<h1 id="github-pages-gem">Github Pages gem</h1>
+<p>Instead of the jekyll gem, I used the following dependencies:</p>
+<ul>
+  <li>I use this to setup Jekyll: https://github.com/github/pages-gem</li>
+</ul>
 
-<p>I cannot agree more. Analytical thinking - and its bigger sister, systems thinking - have always been critical skills. With the increasing prevalence of AI-assisted coding tools like Cursor, Claude, and various Copilots this has become even more relevant. The shift from code, what started off with punch cards and assembly and progressed to  high-level languages and concepts, continous to play out. Software development will focus on design specifications and testing. This will entail for a large part modeling and reasoning, which require exactly these analytical skills.</p>
+<p>in the gemfile, I replaced <code class="language-plaintext highlighter-rouge">gem "jekyll", "~&gt; 4.4.1"</code> with:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+</code></pre></div></div>
 
-<blockquote>
-  <p>AI and big data top the list of fastest-growing skills, followed closely by networks and cybersecurity as well as technology literacy. Complementing these technology-related skills, creative thinking, resilience, flexibility and agility, along with <strong>curiosity and lifelong learning</strong>, are also expected to continue to rise in importance over the 2025-2030 period. Conversely, manual dexterity, endurance and precision stand out with notable net declines in skills demand, with 24% of respondents foreseeing a decrease in their importance.</p>
-</blockquote>
+<p>I ran <code class="language-plaintext highlighter-rouge">bundle</code> to update the dependencies.</p>
 
-<p>We can only keep pace if we continue to improve ourselves. Rentlessly learning, inspired by true curiosity, drives the best of us forward. It is not for everyone, but as leaders we must foster this culture and enable and coach others.</p>
+<h2 id="creating-an-author-profile">Creating an author profile</h2>
+<p>To create  short bio of myself on the website I follow the <a href="https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile">mmistakes instructions on how to create an author profile</a>.</p>
 
-<div class="notice">
-<p><a target="_blank" rel="noopener noreferrer" href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" class="btn" title="The Future of Job Reports 2025 | World Economic Forum" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> The Future of Job Reports 2025 | World Economic Forum</span></a></p>
-</div>
+<p>I decided to configure it in the <em>_config.yaml</em>.</p>
+
+<p><img src="/assets/images/posts/website_site_author1.png" alt="Configure the author profile in _config.yaml." class="align-center" /></p>
+
+<p><img src="/assets/images/posts/website_site_author2.png" alt="Configure the author profile in _config.yaml." class="align-center" /></p>
+
+<p>It looks like this with the Minimal Mistakes theme.</p>
+
+<p><img src="/assets/images/posts/website_site_author3.png" alt="The author profile with mmistakes." class="align-center" /></p>
+
+<h2 id="adding-a-footer">Adding a footer</h2>
+<p>You can also configure the footer.</p>
+
+<p><img src="/assets/images/posts/website_footer1.png" alt="Configure the footer in _config.yaml." class="align-center" /></p>
+
+<p>Which then looks like so.</p>
+
+<p><img src="/assets/images/posts/website_footer2.png" alt="The footer with mmistakes." class="align-center" /></p>
+
+<h2 id="creating-a-feed">Creating a feed</h2>
+<p>Jekyll supports generating an <em>atom feed</em> from the blog posts. This is available as a <a href="https://rubygems.org/gems/jekyll-feed/versions/0.17.0?locale=en">gem</a>. Simply add it to the <strong>gemfile</strong>.</p>
+
+<p><img src="/assets/images/posts/website_feed.png" alt="Configure the feed in _config.yaml." class="align-center" /></p>
+
+<h2 id="adding-additional-pages">Adding additional pages</h2>
+<p>The Jekyll and Minimal Mistakes theme provide more functionality than just blog pages. I store my non-blog pages in a separate <em>/_pages/</em> folder.</p>
+
+<p>To include these in the build, I configured the <em>_config.yml</em> accordingly.</p>
+
+<p><img src="/assets/images/posts/website_pages1.png" alt="Configure the /_pages/ folder in _config.yaml." class="align-center" /></p>
+
+<p><img src="/assets/images/posts/website_pages2.png" alt="Configure the /_pages/ folder in _config.yaml." class="align-center" /></p>
+
+<h1 id="this-blog-series">This blog series</h1>
+<p>This blog is part of a larger series:</p>
+
 
         
       </section>
@@ -370,26 +407,26 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-06-24T00:00:00+00:00">June 24, 2025</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-07-14T00:00:00+00:00">July 14, 2025</time></p>
 
       </footer>
 
       <section class="page__share">
   <h4 class="page__share-title">Share on</h4>
 
-  <a href="https://x.com/intent/tweet?text=The+Future+of+Jobs+Report+2025%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2025%2F06%2F24%2Fthe-future-of-jobs-report-2025.html" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+  <a href="https://x.com/intent/tweet?text=How+I+created+this+website+%281%29+-+Jekyll+and+Github+Pages%20http%3A%2F%2Flocalhost%3A4000%2Fwebsite%2F2025%2F07%2F14%2Fwebsite-1-github-and-jekyll.html" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
     <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
   </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2025%2F06%2F24%2Fthe-future-of-jobs-report-2025.html" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fwebsite%2F2025%2F07%2F14%2Fwebsite-1-github-and-jekyll.html" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
     <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
   </a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/2025/06/24/the-future-of-jobs-report-2025.html" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/website/2025/07/14/website-1-github-and-jekyll.html" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
     <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
   </a>
 
-  <a href="https://bsky.app/intent/compose?text=The+Future+of+Jobs+Report+2025%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2025%2F06%2F24%2Fthe-future-of-jobs-report-2025.html" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+  <a href="https://bsky.app/intent/compose?text=How+I+created+this+website+%281%29+-+Jekyll+and+Github+Pages%20http%3A%2F%2Flocalhost%3A4000%2Fwebsite%2F2025%2F07%2F14%2Fwebsite-1-github-and-jekyll.html" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
     <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
   </a>
 </section>
@@ -398,10 +435,10 @@
       
   <nav class="pagination">
     
-      <a href="/blog/2025/06/19/expert-generalist.html" class="pagination--pager" title="Expert Generalists">Previous</a>
+      <a href="/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html" class="pagination--pager" title="Accelerate State of DevOps: Developer Experience">Previous</a>
     
     
-      <a href="/blog/2025/07/01/my-experience-from-applying-for-the-openca-certification.html" class="pagination--pager" title="My experience from applying for the OpenCA Level 2 certification">Next</a>
+      <a href="/website/2025/07/14/website-2-codespaces.html" class="pagination--pager" title="How I created this website (2) - Codespaces">Next</a>
     
   </nav>
 
@@ -429,7 +466,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/2025/07/14/website-x-other.html" rel="permalink">Website X Other
+        <a href="/website/2025/07/14/website-2-codespaces.html" rel="permalink">How I created this website (2) - Codespaces
 </a>
       
     </h2>
@@ -447,17 +484,54 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          2 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">Images
-Creative Commons
+    <p class="archive__item-excerpt" itemprop="description">I decided to use Github Codespaces as my IDE. It is Visual Studio Code hosted in the browsers connected to a cloud-hosted VM that runs the devcontainer with ...</p>
+  </article>
+</div>
 
-https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html" rel="permalink">Accelerate State of DevOps: Developer Experience
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience.
 
 </p>
   </article>
@@ -474,7 +548,7 @@ https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/2025/07/14/website-x-books.html" rel="permalink">Website X Books
+        <a href="/developer%20experience/2025/06/24/the-future-of-jobs-report-2025.html" rel="permalink">The Future of Jobs Report 2025
 </a>
       
     </h2>
@@ -492,17 +566,14 @@ https://mister-chad.com/graphic+design+resources/free+images+for+commercial+use
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">Books
-https://help.goodreads.com/s/article/How-do-I-add-a-widget-to-my-blog-1553870933491
-https://www.goodreads.com/user/edit?ref=nav_profile_settings
-</p>
+    <p class="archive__item-excerpt" itemprop="description">The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s diges...</p>
   </article>
 </div>
 
@@ -517,7 +588,7 @@ https://www.goodreads.com/user/edit?ref=nav_profile_settings
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/2025/07/14/website-x-raindrop.html" rel="permalink">Website X Raindrop
+        <a href="/developer%20experience/2025/06/19/expert-generalist.html" rel="permalink">Expert Generalists
 </a>
       
     </h2>
@@ -542,48 +613,8 @@ https://www.goodreads.com/user/edit?ref=nav_profile_settings
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
+    <p class="archive__item-excerpt" itemprop="description">An article about Expert Generalists was posted by Martin Fowler on his website.
 
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/2025/07/14/website-x-mindmap.html" rel="permalink">Website X Mindmap
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>

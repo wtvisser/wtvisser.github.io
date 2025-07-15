@@ -2,7 +2,7 @@
 layout:     single
 classes:    wide
 title:      "Accelerate State of DevOps: Developer Experience"
-categories: blog
+categories: [Developer Experience]
 tags: 
   - engineering
 

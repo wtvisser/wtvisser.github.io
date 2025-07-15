@@ -2,9 +2,7 @@
 layout:     single
 classes:    wide
 title:      "How I created this website (1) - Jekyll and Github Pages"
-categories: blog
-tags: 
-  - skills
+category:   [Website]
 
 tagline: ""
 header:
@@ -79,5 +77,3 @@ To include these in the build, I configured the *_config.yml* accordingly.
 # This blog series
 This blog is part of a larger series:
 
-1. [Github and Jekyll]({% link _posts/2025-07-14-website-1-github-and-jekyll.md %})
-2. [Codespaces]({% link _posts/2025-07-14-website-2-codespaces.md %})
