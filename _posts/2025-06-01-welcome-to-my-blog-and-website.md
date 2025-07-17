@@ -7,6 +7,10 @@ categories: [Website]
 tagline: "How to build cross-domain expertise and thrive"
 header:
   overlay_image: /assets/images/headers/leaf_1280x325.png
+image:
+  path: assets/images/opengraph/leaf_325x325_with_name.png
+  width: 325
+  height: 325  
 ---
 {% include post_category_and_date.html %}
 

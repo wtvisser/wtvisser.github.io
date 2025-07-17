@@ -34,4 +34,10 @@ var store = [{
         "tags": [],
         "url": "/website/2025/07/14/website-2-codespaces.html",
         "teaser": null
+      },{
+        "title": "AI leads to regulation",
+        "excerpt":"Updated: 17 July 2025 Category: AI Here is a prediction: the adoption of AI tooling will lead to government regulation of the software industry. Tell me I am wrong. But hear me out first. In my view there are two major ways how the recent advent of AI contributes to...","categories": ["AI"],
+        "tags": [],
+        "url": "/ai/2025/07/17/AI-leads-to-regulation.html",
+        "teaser": null
       }]
