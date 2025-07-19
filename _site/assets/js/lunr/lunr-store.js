@@ -5,12 +5,6 @@ var store = [{
         "url": "/website/2025/06/01/welcome-to-my-blog-and-website.html",
         "teaser": null
       },{
-        "title": "Expert Generalists",
-        "excerpt":"Updated: 19 June 2025 Category: Developer Experience Martin Fowler posted an article about Expert Generalists.  Expert Generalist | Martin Fowler I am a Generalist The few words about recruiting focus also resonate: valuing understanding concepts, effectively decomposing both systems and work, test (and quality) oriented, and collaborative. That is what...","categories": ["Developer Experience"],
-        "tags": [],
-        "url": "/developer%20experience/2025/06/19/expert-generalist.html",
-        "teaser": null
-      },{
         "title": "The Future of Jobs Report 2025",
         "excerpt":"Updated: 24 June 2025 Category: Developer Experience The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest. Below are the relevant excerpts from the report digest (bold emphasis is my own). Technology-related roles are the fastest-growing...","categories": ["Developer Experience"],
         "tags": [],
@@ -39,5 +33,11 @@ var store = [{
         "excerpt":"Updated: 17 July 2025 Category: AI Here is a prediction: the adoption of AI tooling will lead to government regulation of the software industry. Tell me I am wrong. But hear me out first. In my view there are two major ways how the recent advent of AI contributes to...","categories": ["AI"],
         "tags": [],
         "url": "/ai/2025/07/17/AI-leads-to-regulation.html",
+        "teaser": null
+      },{
+        "title": "Expert Generalists",
+        "excerpt":"Updated: 19 July 2025 Category: Developer Experience Martin Fowler posted an article about Expert Generalists.  Expert Generalist | Martin Fowler I am a Generalist The few words about recruiting focus also resonate: valuing understanding concepts, effectively decomposing both systems and work, test (and quality) oriented, and collaborative. That is what...","categories": ["Developer Experience"],
+        "tags": [],
+        "url": "/developer%20experience/2025/07/19/expert-generalist.html",
         "teaser": null
       }]
