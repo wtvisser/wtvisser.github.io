@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Expert Generalists",
-        "excerpt":"Updated: 19 June 2025 Category: Developer Experience An article about Expert Generalists was posted by Martin Fowler on his website. The article hits home. I consider myself what Martin and co describe an Expert Generalist is. I recognize the characteristics: curiosity-driven, collaborative, and customer (value)-focussed. The few words about recruiting...","categories": ["Developer Experience"],
+        "excerpt":"Updated: 19 June 2025 Category: Developer Experience Martin Fowler posted an article about Expert Generalists.  Expert Generalist | Martin Fowler I am a Generalist The few words about recruiting focus also resonate: valuing understanding concepts, effectively decomposing both systems and work, test (and quality) oriented, and collaborative. That is what...","categories": ["Developer Experience"],
         "tags": [],
         "url": "/developer%20experience/2025/06/19/expert-generalist.html",
         "teaser": null
