@@ -21,7 +21,10 @@ I hoard knowledge. I use [Raindrop](https://raindrop.io/) to store what I read. 
 
 # Raindrop Articles
 * [Architecture](architecture/)
-* [LLMs and Software Engineering](llms/)
+* [AI-Assisted Development](ai-assisted-development/)
+* [Agentic AI](agentic-ai/)
+* [Engineering Skills](skills/)
+* [IoT](iot/)
 
 <!-- # Knowledge Map
 I use a [knowledge map on MindMeister](https://www.mindmeister.com/app/map/3766907505?fullscreen=1&v=public) to keep an overview of the most important information.
