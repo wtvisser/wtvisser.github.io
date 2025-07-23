@@ -24,6 +24,7 @@ I hoard knowledge. I use [Raindrop](https://raindrop.io/) to store what I read. 
 * [AI-Assisted Development](ai-assisted-development/)
 * [Agentic AI](agentic-ai/)
 * [Engineering Skills](skills/)
+* [Socio-Technical Engineering](sociotechnical/)
 * [IoT](iot/)
 
 <!-- # Knowledge Map

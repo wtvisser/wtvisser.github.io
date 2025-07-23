@@ -40,4 +40,10 @@ var store = [{
         "tags": [],
         "url": "/developer%20experience/2025/07/19/expert-generalist.html",
         "teaser": null
+      },{
+        "title": "From Developer to Tech Lead",
+        "excerpt":"Updated: 23 July 2025 Category: Developer Experience Moving from a developer role to a tech lead position is an exciting but demanding transition. Although solid coding abilities are essential, effective leadership entails much more. As a tech lead, you’ll need to juggle team coordination, project planning, and stakeholder management, all...","categories": ["Developer Experience"],
+        "tags": [],
+        "url": "/developer%20experience/2025/07/23/from-developer-to-tech-lead.html",
+        "teaser": null
       }]
