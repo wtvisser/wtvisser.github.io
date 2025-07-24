@@ -37,36 +37,48 @@ In an agile environment, effective sprint planning and time management are essen
 
 The team may be part of a larger setup such as an [Agile Release Train](https://framework.scaledagile.com/agile-release-train) or [Value Stream](https://framework.scaledagile.com/development-value-streams/) which the Tech Lead must navigate.
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Learn Agile methodologies like Scrum, Kanban and SAFe. If formal education is required, consider taking a course from the <a target="_blank" href="https://www.scrumalliance.org/get-certified">Scrum Alliance</a> or the <a target="_blank" href="https://scaledagile.com/certification/agile-software-engineering/">SAFe Agile Software Engineering</a> or <a target="_blank" href="https://scaledagile.com/certification/safe-architect/">SAFe Architect</a>.</span></td></tr></table></div>
+{% capture notice-1 %}
+Learn Agile methodologies like Scrum, Kanban and SAFe. If formal education is required, consider taking a course from the [Scrum Alliance](https://www.scrumalliance.org/get-certified) or the [SAFe Agile Software Engineering](https://scaledagile.com/certification/agile-software-engineering/) or [SAFe Architect](https://scaledagile.com/certification/safe-architect/).
+{% endcapture %}
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>{{ notice-1 | markdownify }}</div>
 
 ## Team Collaboration and Communication
 Technical responsibility involves leading and collaborating with cross-functional teams. Tech leads need to cultivate a productive team atmosphere by establishing clear objectives, offering feedback, and addressing conflicts. Effective communication and interpersonal skills are essential for building trust and promoting team unity.
-x§  
+
 A tech lead is more than just a senior developer; they also serve as a mentor and a decision-maker. It's vital for the team to grasp project goals and stay aligned to achieve success. Clear communication helps avoid misunderstandings and facilitates smooth project execution.
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Carry out and lead regular stand-ups, sprint reviews, and retrospectives to foster an open and transparent team culture. Encourage feedback and knowledge sharing to improve collaboration. Learn effective <a target="_blank" href="https://medium.com/@stalin.t/effective-communication-in-software-engineering-speaking-the-receivers-language-60d359b97123">communication skills</a> through role-playing in a group setting.</span></td></tr></table></div>
+{% capture notice-2 %}
+Carry out and lead regular stand-ups, sprint reviews, and retrospectives to foster an open and transparent team culture. Encourage feedback and knowledge sharing to improve collaboration. Learn effective [communication skills](https://medium.com/@stalin.t/effective-communication-in-software-engineering-speaking-the-receivers-language-60d359b97123) through role-playing in a group setting.
+{% endcapture %}
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>{{ notice-2 | markdownify }}</div>
 
 ## Risk Assessment and Problem Solving
 Tech leads need to be skilled at recognizing and managing risks. This involves anticipating potential issues, developing contingency plans, and adapting to changes in project scope or timelines. Project management techniques enable tech leads to tackle these challenges while keeping the project on track.
 
 Every project faces unexpected issues. Whether it is scope creep, bugs, or changing requirements, a tech lead must anticipate risks and have a plan to address them before they become more serious.
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Use <a target="_blank" href="https://www.projectmanager.com/training/how-to-analyze-risks-project">risk mapping techniques</a> to manage possible changes. Having a contingency plan in place will help keep projects on schedule.
-</span></td></tr></table></div>
+{% capture notice-3 %}
+Use [risk mapping techniques](https://www.projectmanager.com/training/how-to-analyze-risks-project) to manage possible changes. Having a contingency plan in place will help keep projects on schedule.
+{% endcapture %}
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>{{ notice-3 | markdownify }}</div>
 
 ## Delegation and Task Management
 As a developer, you were responsible for developing software. As a Tech Lead, your role shifts to ensuring that the software is implemented correctly and people work on the right tasks while maintaining efficiency. Overloading yourself with tasks can lead to burnout and decreased productivity.
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Learn how to delegate effectively, trust your team, and use the right tools for better task allocation and tracking.
-</span></td></tr></table></div>
+{% capture notice-4 %}
+Learn how to delegate effectively, trust your team, and use the right tools for better task allocation and tracking.
+{% endcapture %}
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>{{ notice-4 | markdownify }}</div>
 
 ## Stakeholder Management
 A Tech Lead frequently engages with customers, suppliers, product managers, and executives to ensure that development efforts are aligned with business objectives. The capacity to convey technical challenges in business terms is an essential leadership quality.
 
 Solution: Develop presentation and reporting skills to communicate technical updates clearly. Use dashboards and reports in project management tools to share progress updates with stakeholders effectively.
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span><a target="_blank" href="https://architectelevator.com/workshops/">Enhance your presentation and reporting skills</a> to communicate technical updates effectively. Utilize dashboards and reports in project management tools to provide stakeholders with clear progress updates.
-</span></td></tr></table></div>
+{% capture notice-5 %}
+[Enhance your presentation and reporting skills](https://architectelevator.com/workshops/) to communicate technical updates effectively. Utilize dashboards and reports in project management tools to provide stakeholders with clear progress updates.
+{% endcapture %}
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>{{ notice-5 | markdownify }}</div>
 
 # Further Reading
 I find this book useful:

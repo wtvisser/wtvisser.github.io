@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-23T16:00:49+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">From Developer to Tech Lead</title><link href="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html" rel="alternate" type="text/html" title="From Developer to Tech Lead" /><published>2025-07-23T00:00:00+00:00</published><updated>2025-07-23T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>23 July 2025</time> 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-24T06:58:45+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">From Developer to Tech Lead</title><link href="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html" rel="alternate" type="text/html" title="From Developer to Tech Lead" /><published>2025-07-23T00:00:00+00:00</published><updated>2025-07-23T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>23 July 2025</time> 
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#Developer Experience">Developer Experience</a></p>
 
 <p>Moving from a developer role to a tech lead position is an exciting but demanding transition. Although solid coding abilities are essential, effective leadership entails much more. As a tech lead, you’ll need to juggle team coordination, project planning, and stakeholder management, all of which are key aspects of project management.</p>
@@ -31,36 +31,43 @@
 
 <p>The team may be part of a larger setup such as an <a href="https://framework.scaledagile.com/agile-release-train">Agile Release Train</a> or <a href="https://framework.scaledagile.com/development-value-streams/">Value Stream</a> which the Tech Lead must navigate.</p>
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Learn Agile methodologies like Scrum, Kanban and SAFe. If formal education is required, consider taking a course from the <a target="_blank" href="https://www.scrumalliance.org/get-certified">Scrum Alliance</a> or the <a target="_blank" href="https://scaledagile.com/certification/agile-software-engineering/">SAFe Agile Software Engineering</a> or <a target="_blank" href="https://scaledagile.com/certification/safe-architect/">SAFe Architect</a>.</span></td></tr></table></div>
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
+<p>Learn Agile methodologies like Scrum, Kanban and SAFe. If formal education is required, consider taking a course from the <a href="https://www.scrumalliance.org/get-certified">Scrum Alliance</a> or the <a href="https://scaledagile.com/certification/agile-software-engineering/">SAFe Agile Software Engineering</a> or <a href="https://scaledagile.com/certification/safe-architect/">SAFe Architect</a>.</p>
+</div>
 
 <h2 id="team-collaboration-and-communication">Team Collaboration and Communication</h2>
-<p>Technical responsibility involves leading and collaborating with cross-functional teams. Tech leads need to cultivate a productive team atmosphere by establishing clear objectives, offering feedback, and addressing conflicts. Effective communication and interpersonal skills are essential for building trust and promoting team unity.
-x§<br />
-A tech lead is more than just a senior developer; they also serve as a mentor and a decision-maker. It’s vital for the team to grasp project goals and stay aligned to achieve success. Clear communication helps avoid misunderstandings and facilitates smooth project execution.</p>
+<p>Technical responsibility involves leading and collaborating with cross-functional teams. Tech leads need to cultivate a productive team atmosphere by establishing clear objectives, offering feedback, and addressing conflicts. Effective communication and interpersonal skills are essential for building trust and promoting team unity.</p>
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Carry out and lead regular stand-ups, sprint reviews, and retrospectives to foster an open and transparent team culture. Encourage feedback and knowledge sharing to improve collaboration. Learn effective <a target="_blank" href="https://medium.com/@stalin.t/effective-communication-in-software-engineering-speaking-the-receivers-language-60d359b97123">communication skills</a> through role-playing in a group setting.</span></td></tr></table></div>
+<p>A tech lead is more than just a senior developer; they also serve as a mentor and a decision-maker. It’s vital for the team to grasp project goals and stay aligned to achieve success. Clear communication helps avoid misunderstandings and facilitates smooth project execution.</p>
+
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
+<p>Carry out and lead regular stand-ups, sprint reviews, and retrospectives to foster an open and transparent team culture. Encourage feedback and knowledge sharing to improve collaboration. Learn effective <a href="https://medium.com/@stalin.t/effective-communication-in-software-engineering-speaking-the-receivers-language-60d359b97123">communication skills</a> through role-playing in a group setting.</p>
+</div>
 
 <h2 id="risk-assessment-and-problem-solving">Risk Assessment and Problem Solving</h2>
 <p>Tech leads need to be skilled at recognizing and managing risks. This involves anticipating potential issues, developing contingency plans, and adapting to changes in project scope or timelines. Project management techniques enable tech leads to tackle these challenges while keeping the project on track.</p>
 
 <p>Every project faces unexpected issues. Whether it is scope creep, bugs, or changing requirements, a tech lead must anticipate risks and have a plan to address them before they become more serious.</p>
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Use <a target="_blank" href="https://www.projectmanager.com/training/how-to-analyze-risks-project">risk mapping techniques</a> to manage possible changes. Having a contingency plan in place will help keep projects on schedule.
-</span></td></tr></table></div>
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
+<p>Use <a href="https://www.projectmanager.com/training/how-to-analyze-risks-project">risk mapping techniques</a> to manage possible changes. Having a contingency plan in place will help keep projects on schedule.</p>
+</div>
 
 <h2 id="delegation-and-task-management">Delegation and Task Management</h2>
 <p>As a developer, you were responsible for developing software. As a Tech Lead, your role shifts to ensuring that the software is implemented correctly and people work on the right tasks while maintaining efficiency. Overloading yourself with tasks can lead to burnout and decreased productivity.</p>
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span>Learn how to delegate effectively, trust your team, and use the right tools for better task allocation and tracking.
-</span></td></tr></table></div>
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
+<p>Learn how to delegate effectively, trust your team, and use the right tools for better task allocation and tracking.</p>
+</div>
 
 <h2 id="stakeholder-management">Stakeholder Management</h2>
 <p>A Tech Lead frequently engages with customers, suppliers, product managers, and executives to ensure that development efforts are aligned with business objectives. The capacity to convey technical challenges in business terms is an essential leadership quality.</p>
 
 <p>Solution: Develop presentation and reporting skills to communicate technical updates clearly. Use dashboards and reports in project management tools to share progress updates with stakeholders effectively.</p>
 
-<div class="notice--info"><table><tr><td style="border-style:none"><i class="fa-solid fa-graduation-cap fa-3x" style="vertical-align: middle" aria-hidden="true"></i></td><td style="border-style:none"><span><a target="_blank" href="https://architectelevator.com/workshops/">Enhance your presentation and reporting skills</a> to communicate technical updates effectively. Utilize dashboards and reports in project management tools to provide stakeholders with clear progress updates.
-</span></td></tr></table></div>
+<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
+<p><a href="https://architectelevator.com/workshops/">Enhance your presentation and reporting skills</a> to communicate technical updates effectively. Utilize dashboards and reports in project management tools to provide stakeholders with clear progress updates.</p>
+</div>
 
 <h1 id="further-reading">Further Reading</h1>
 <p>I find this book useful:</p>
