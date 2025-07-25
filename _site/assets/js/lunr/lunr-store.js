@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Accelerate State of DevOps: Developer Experience",
-        "excerpt":"Updated: 09 July 2025 Category: Developer Experience I recently re-read the 2024 DORA Report. Here are my thoughts about Developer Experience. Provide direction to obtain drive Guess what, Software Engineers are human too. (/sarcasm) The report mentioned: A recent survey showed that 93% of workers reported that it’s important to...","categories": ["Developer Experience"],
+        "excerpt":"Updated: 09 July 2025 Category: Developer Experience I recently re-read the 2024 DORA Report. Here are my thoughts about what the report has to say about Developer Experience. For more on the DORA Report, see my other posts in this series. Developer Experience Provide direction to obtain drive Guess what,...","categories": ["Developer Experience"],
         "tags": [],
         "url": "/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html",
         "teaser": null
@@ -45,5 +45,11 @@ var store = [{
         "excerpt":"Updated: 23 July 2025 Category: Developer Experience Moving from a developer role to a tech lead position is an exciting but demanding transition. Although solid coding abilities are essential, effective leadership entails much more. As a tech lead, you’ll need to juggle team coordination, project planning, and stakeholder management, all...","categories": ["Developer Experience"],
         "tags": [],
         "url": "/developer%20experience/2025/07/23/from-developer-to-tech-lead.html",
+        "teaser": null
+      },{
+        "title": "Accelerate State of DevOps: AI Adoption",
+        "excerpt":"Updated: 25 July 2025 Category: Developer Experience I recently re-read the 2024 DORA Report. Here are my thoughts on what the report has to say about AI Adoption. For more on the DORA Report, see my other posts in this series. AI Adoption Improvements with AI adoption The DORA researchers...","categories": ["Developer Experience"],
+        "tags": [],
+        "url": "/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html",
         "teaser": null
       }]

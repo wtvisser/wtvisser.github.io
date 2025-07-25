@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-24T06:58:45+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">From Developer to Tech Lead</title><link href="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html" rel="alternate" type="text/html" title="From Developer to Tech Lead" /><published>2025-07-23T00:00:00+00:00</published><updated>2025-07-23T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>23 July 2025</time> 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-25T14:58:32+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">Accelerate State of DevOps: AI Adoption</title><link href="http://localhost:4000/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html" rel="alternate" type="text/html" title="Accelerate State of DevOps: AI Adoption" /><published>2025-07-25T00:00:00+00:00</published><updated>2025-07-25T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>25 July 2025</time> 
+<strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#Developer Experience">Developer Experience</a></p>
+
+<p>I recently re-read the <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a>. Here are my thoughts on what the report has to say about <strong>AI Adoption</strong>. For more on the DORA Report, see my <a href="#post-series">other posts in this series</a>.</p>
+
+<h1 id="ai-adoption">AI Adoption</h1>
+<h2 id="improvements-with-ai-adoption">Improvements with AI adoption</h2>
+<p>The DORA researchers observe improvements in software engineering where AI is used:</p>
+
+<blockquote>
+  <p>AI seems to improve code quality and reduce code complexity (see below figure). When combined with some potential refactoring of old code, the high-quality, AI-generated code could lead to an overall better codebase. This codebase might be additionally improved by having better access to quality documentation</p>
+
+  <p><img src="/assets/images/posts/dora2024_aiadoption_engineeringperformance.jpg" alt="Software engineering improvements with 25% AI adoption" class="align-center" />
+Software engineering improvements with 25% AI adoption</p>
+</blockquote>
+
+<p>I take these results with a grain of salt. Although the DORA Report was published late October 2024 and the data is from earlier that year, which means that AI tooling likely improved since, general quality improvements would strongly depend on the quality processes organizations already have in place.</p>
+
+<p>If AI-assisted development tooling is introduced in teams where engineering practices are weak or absent, these tools likely do more harm than good. Their non-determinstic nature may also lead to ineffiencies, as iterative prompting may lead developers into a rabbit hole.</p>
+
+<p>I do believe AI helps with documentation quality, mostly because this is often absent or an after thought. AIs can improve documentation comprehension by making it more readable and contribute to its completeness. I don’t believe it would be able to close documentation gaps, especially not in regards to design decisions. These engineering tasks heavily depend on business, organizational and technical contexts that are hard for LLMs to understand - mostly because much is often implicit.</p>
+
+<h2 id="ai-is-hurting-delivery-performance">AI is hurting delivery performance</h2>
+
+<p>The researchers found that using AI does not always help:</p>
+
+<blockquote>
+  <p>Contrary to our expectations, our findings indicate that AI adoption is negatively impacting software delivery performance.</p>
+</blockquote>
+
+<p>They assume that AI has a negative impact on best practices, in this case small units of work:</p>
+
+<blockquote>
+  <p>We hypothesize that the fundamental paradigm shift that AI has produced in terms of respondent productivity and code generation speed may have caused the field to forget one of DORA’s most basic principles — the importance of small batch sizes.</p>
+</blockquote>
+
+<blockquote>
+  <p>That is, since AI allows respondents to produce a much greater amount of code in the same amount of time, it is possible, even likely, that changelists are growing in size. DORA has consistently shown that larger changes are slower and more prone to creating instability.</p>
+</blockquote>
+
+<p>It is clear to me that engineering rigor needs to be continuously reviewed and adapted with the introduced of new tooling - in this case AI-assisted development tools. The introduction of AIs in the software engineering process must be carefully considered. It is good to experiment and try out new tools, however this should be done in a limited setting. AIs can have a huge impact on software and development, and as such should be tried out in environments where their harm are limited, such as in sandboxes and for prototypes.</p>
+
+<h2 id="high-performing-teams-and-organizations-use-ai-but-products-dont-seem-to-benefit">High-performing teams and organizations use AI, but products don’t seem to benefit.</h2>
+
+<p>The researchers looked at the impact of AIs on software product quality:</p>
+
+<blockquote>
+  <p>Product performance, however, does not seem to have an obvious association with AI adoption.</p>
+
+  <p><img src="/assets/images/posts/dora2024_aiadoption_productperformance.png" alt="Product performance improvements with 25% AI adoption" class="align-center" />
+Product performance improvements with 25% AI adoption</p>
+
+  <p>Product performance is defined as the usability, functionality, value, availability, performance (for example, latency), and security of a product.</p>
+</blockquote>
+
+<p>They postulate that AI contributes to engineering much more than to software quality:</p>
+
+<blockquote>
+  <p>NFRs and quality characteristics determine product quality much more so than what is currently gained with AI (improvements in development, such as code quality, documentation, and delivery speed)</p>
+</blockquote>
+
+<p>That makes sense. Software quality, typically defined as quality characteristics and non-functional requirements, are much more abstract and harder to grasp. They are often cross-cutting and materialize as across multiple system components.</p>
+
+<h1 id="what-else">What else?</h1>
+
+<p>There is more in the DORA report which I won’t be covering here. Those are important topics, such as AI Adoption, Platform Engineering, Shifting Priotities, Transformational Leadership, (and what skills a leader must have to be effective).</p>
+
+<div class="notice">
+<p><a target="_blank" rel="noopener noreferrer" href="https://dora.dev/research/2024/dora-report/" class="btn" title="Accelerate State of DevOps | 2024 DORA Report" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> Accelerate State of DevOps | 2024 DORA Report</span></a></p>
+</div>
+
+<h1 id="post-series">Post Series</h1>
+<p>This post is part of a larger series.</p>
+
+<ul>
+  <li><a href="/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html">Accelerate State of DevOps: Developer Experience</a></li>
+  <li><a href="/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html">Accelerate State of DevOps: AI Adoption</a></li>
+</ul>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><summary type="html"><![CDATA[Updated: 25 July 2025 Category: Developer Experience]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">From Developer to Tech Lead</title><link href="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html" rel="alternate" type="text/html" title="From Developer to Tech Lead" /><published>2025-07-23T00:00:00+00:00</published><updated>2025-07-23T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/23/from-developer-to-tech-lead.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>23 July 2025</time> 
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#Developer Experience">Developer Experience</a></p>
 
 <p>Moving from a developer role to a tech lead position is an exciting but demanding transition. Although solid coding abilities are essential, effective leadership entails much more. As a tech lead, you’ll need to juggle team coordination, project planning, and stakeholder management, all of which are key aspects of project management.</p>
@@ -303,8 +380,9 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 <p>This blog is part of a larger series:</p>]]></content><author><name>Wicher Visser</name></author><category term="[&quot;Website&quot;]" /><summary type="html"><![CDATA[Updated: 14 July 2025 Category: Website]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accelerate State of DevOps: Developer Experience</title><link href="http://localhost:4000/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html" rel="alternate" type="text/html" title="Accelerate State of DevOps: Developer Experience" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-07-09T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>09 July 2025</time> 
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#Developer Experience">Developer Experience</a></p>
 
-<p>I recently re-read the <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a>. Here are my thoughts about <strong>Developer Experience</strong>.</p>
+<p>I recently re-read the <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a>. Here are my thoughts about what the report has to say about <strong>Developer Experience</strong>. For more on the DORA Report, see my <a href="#post-series">other posts in this series</a>.</p>
 
+<h1 id="developer-experience">Developer Experience</h1>
 <h2 id="provide-direction-to-obtain-drive">Provide direction to obtain drive</h2>
 
 <p>Guess what, Software Engineers are human too. <code class="language-plaintext highlighter-rouge">(/sarcasm)</code> The report mentioned:</p>
@@ -387,7 +465,15 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 <div class="notice">
 <p><a target="_blank" rel="noopener noreferrer" href="https://dora.dev/research/2024/dora-report/" class="btn" title="Accelerate State of DevOps | 2024 DORA Report" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span> Accelerate State of DevOps | 2024 DORA Report</span></a></p>
-</div>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><summary type="html"><![CDATA[Updated: 09 July 2025 Category: Developer Experience]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Future of Jobs Report 2025</title><link href="http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025.html" rel="alternate" type="text/html" title="The Future of Jobs Report 2025" /><published>2025-06-24T00:00:00+00:00</published><updated>2025-06-24T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>24 June 2025</time> 
+</div>
+
+<h1 id="post-series">Post Series</h1>
+<p>This post is part of a larger series.</p>
+
+<ul>
+  <li><a href="/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html">Accelerate State of DevOps: Developer Experience</a></li>
+  <li><a href="/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html">Accelerate State of DevOps: AI Adoption</a></li>
+</ul>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><summary type="html"><![CDATA[Updated: 09 July 2025 Category: Developer Experience]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Future of Jobs Report 2025</title><link href="http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025.html" rel="alternate" type="text/html" title="The Future of Jobs Report 2025" /><published>2025-06-24T00:00:00+00:00</published><updated>2025-06-24T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/06/24/the-future-of-jobs-report-2025.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>24 June 2025</time> 
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#Developer Experience">Developer Experience</a></p>
 
 <p>The World Economic Forum published The Future of Jobs Report 2025 report last January. It has some important take-aways for software engineering. Let’s digest.</p>

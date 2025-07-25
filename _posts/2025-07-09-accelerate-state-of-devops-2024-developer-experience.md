@@ -14,8 +14,9 @@ image:
 ---
 {% include post_category_and_date.html %}
 
-I recently re-read the [2024 DORA Report](https://dora.dev/research/2024/dora-report/). Here are my thoughts about **Developer Experience**.
+I recently re-read the [2024 DORA Report](https://dora.dev/research/2024/dora-report/). Here are my thoughts about what the report has to say about **Developer Experience**. For more on the DORA Report, see my [other posts in this series](#post-series).
 
+# Developer Experience
 ## Provide direction to obtain drive
 
 Guess what, Software Engineers are human too. `(/sarcasm)` The report mentioned:
@@ -83,3 +84,9 @@ There is more in the DORA report which I won't be covering here. Those are impor
 <a target="_blank" rel="noopener noreferrer" href="https://dora.dev/research/2024/dora-report/" class="btn" title="Accelerate State of DevOps | 2024 DORA Report" style="font-size: 1em;"><i class="fa-solid fa-link fa-3x" style="vertical-align: middle" aria-hidden="true"></i><span>&emsp;Accelerate State of DevOps | 2024 DORA Report</span></a>
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
+
+# Post Series
+This post is part of a larger series.
+
+* [Accelerate State of DevOps: Developer Experience](/developer%20experience/2025/07/09/accelerate-state-of-devops-2024-developer-experience.html)
+* [Accelerate State of DevOps: AI Adoption](/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html)
