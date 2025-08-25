@@ -52,4 +52,10 @@ var store = [{
         "tags": [],
         "url": "/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html",
         "teaser": null
+      },{
+        "title": "Guidelines for AI-Assisted Development",
+        "excerpt":"Updated: 25 August 2025 Category: AI I collect the development guidelines and best practices for AI-assisted development here. These are based on my own experience using LLMs as well as those from others. Key skills are in the LLM age (as before) are critical thinking, adaptability and first principles thinking....","categories": ["AI"],
+        "tags": [],
+        "url": "/ai/2025/08/25/ai-assisted-development-guidelines.html",
+        "teaser": null
       }]

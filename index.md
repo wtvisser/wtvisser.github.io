@@ -3,9 +3,6 @@ layout: single
 title: ""
 author_profile: true
 permalink: /
-toc: true
-toc_icon: "cog"
-toc_sticky: true
 ---
 
 # Wicher Visser

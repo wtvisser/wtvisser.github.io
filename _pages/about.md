@@ -48,6 +48,7 @@ I read a lot. Here is a list of my most important information sources.
 * [Johner Institute](https://blog.johner-institute.com/)
 * [iDesign](https://idesign.net/) alumni group
 * [BigThink](https://bigthink.com/)
+* [Pivot to AI](https://pivot-to-ai.com/)
 * ... and many other sources
 
 ## Images

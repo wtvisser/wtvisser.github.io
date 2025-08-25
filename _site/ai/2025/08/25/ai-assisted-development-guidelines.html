@@ -1,0 +1,827 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Guidelines for AI-Assisted Development - Wicher Visser</title>
+<meta name="description" content="Updated: 25 August 2025   Category: AI">
+
+
+  <meta name="author" content="Wicher Visser">
+  
+  <meta property="article:author" content="Wicher Visser">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wicher Visser">
+<meta property="og:title" content="Guidelines for AI-Assisted Development">
+<meta property="og:url" content="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html">
+
+
+  <meta property="og:description" content="Updated: 25 August 2025   Category: AI">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/headers/leaf_1280x325.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-08-25T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wicher Visser Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.enable_copy_code_button = true;
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Wicher Visser
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/gems/"
+                
+                
+              >Gems</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/headers/leaf_1280x325.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Guidelines for AI-Assisted Development
+
+        
+      </h1>
+      
+        <p class="page__lead">Divide and conquer
+</p>
+      
+      
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/wicher_visser_tieandsuit.png" alt="Wicher Visser" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wicher Visser</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>I build flexible software systems that allow businesses to pivot and grow, and help fellow engineers to grow and accomplish these goals for themselves. I have experience across many industries: life science, finance, industry and the public sector.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Zurich, Switzerland</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/wtvisser" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/wicher-visser/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="/feed.xml" rel="nofollow noopener noreferrer me"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i><span class="label">Feed</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Guidelines for AI-Assisted Development">
+    <meta itemprop="description" content=" Updated: 25 August 2025  Category: AI">
+    <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-cog"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#setup">Setup</a><ul><li><a href="#tech-stack">Tech Stack</a></li><li><a href="#tooling">Tooling</a></li></ul></li><li><a href="#using-llms">Using LLMs</a><ul><li><a href="#general">General</a></li><li><a href="#context-engineering">Context Engineering</a></li><li><a href="#code-reviews">Code Reviews</a></li><li><a href="#ci-integration">CI Integration</a></li></ul></li><li><a href="#when-and-where-to-llms">When and where to LLMs</a></li><li><a href="#advice-to-engineering-leaders">Advice to Engineering Leaders</a><ul><li><a href="#meaningful-experimentation">Meaningful Experimentation</a></li><li><a href="#adoption">Adoption</a></li><li><a href="#impact">Impact</a></li><li><a href="#remove-organizational-impediments">Remove Organizational Impediments</a></li></ul></li><li><a href="#sources">Sources</a></li></ul>
+            </nav>
+          </aside>
+        
+        
+<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>25 August 2025</time> 
+<strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#AI">AI</a></p>
+
+<p>I collect the development guidelines and best practices for AI-assisted development here. These are based on my own experience using LLMs as well as those from others.</p>
+
+<div class="notice">
+<div style="float:left;"><span style="color:Dodgerblue"><i class="fa-solid fa-lightbulb fa-3x" style="vertical-align: middle" aria-hidden="true"></i></span></div>
+<div><span>Key skills are in the LLM age (as before) are <b>critical thinking</b>, <b> adaptability</b> and <b>first principles thinking</b>.</span><div>
+</div></div>
+</div>
+
+<h1 id="setup">Setup</h1>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<ul>
+  <li><strong>Use a common tech stack.</strong> LLMs will likely had a lot of training data on common tech stacks.</li>
+  <li><strong>Use a runtime framework that can do a lot of heavy lifting.</strong> That way the LLM needs to generate less code.</li>
+  <li><strong>Use application topologies that have clearly established patterns.</strong> It is relatively easy to give LLMs a set of patterns to follow. For example, controller, service, repository, entity.</li>
+</ul>
+
+<h2 id="tooling">Tooling</h2>
+<ul>
+  <li><strong>Use coding assistants that can access the code base.</strong> LLMs need access to the code base to their work properly. They need to read and search the codebase, react to linting errors, retry when it fails, etc.</li>
+  <li><strong>Use coding assistants that can create subtasks.</strong> This provides a multi-agent coding setup without having to build something from scratch. Examples are Claude Code, Roo Code, Kile Code.</li>
+</ul>
+
+<h1 id="using-llms">Using LLMs</h1>
+
+<h2 id="general">General</h2>
+<ul>
+  <li><strong>Start with a high-level architecture generation.</strong></li>
+  <li><strong>Start with a test before code implementation.</strong> This is the TDD methodology.</li>
+</ul>
+
+<h2 id="context-engineering">Context Engineering</h2>
+<ul>
+  <li><strong>Provide just-enough context.</strong> Too little context leads to hallucinations. Too much context causes the AI to focus on unimportant aspects or becomes overwhelmed (it doesn’t have an attention mechnanism humans have).</li>
+  <li><strong>Recursive generation.</strong> Recursive generation: Generate changes in stages, focusing on different aspects. Apply changes gradually in smaller commits — this is particularly important to help the human reviewing the change to be able to digest the changes.</li>
+  <li><strong>Directed focus.</strong> Only include the parts of the code directly relevant to the modification</li>
+  <li><strong>Assign roles and perspectives to LLMs.</strong> This increases quality of the results.</li>
+  <li><strong>Ensure the LLM asks for confirmation before every change.</strong> You don’t want it to divert from your goal.</li>
+  <li><strong>Restart coding sessions as frequently as possible.</strong> LLMs generation results still become more hit and miss the longer a session becomes.</li>
+  <li><strong>Use example code snippets for patterns.</strong> This enforces the LLM to use patterns (e.g. entity, repository) libraries of our choice, rather than just choosing one for his liking. This also helps with maintaining the code, as it would allow to change to different libraries much easier.</li>
+  <li><strong>Use a reference application.</strong> This provides sample code and connect to to the LLM through an MCP server. It ensures that the samples we provide compile and are consistent.</li>
+</ul>
+
+<h2 id="code-reviews">Code Reviews</h2>
+<ul>
+  <li><strong>Use AI-powered code reviews for grunt work.</strong> They can automatically flag duplicate code and bad patterns. It can also enforce style guides and carry out routine checks. It can speed up deployment and democratize expertise by sharing its knowledge.</li>
+  <li><strong>Ensure human accountability.</strong> Code reviews work because there are two people responsible for code quality. Their collaboration results in consensus and constructive feedback rather than pride and ‘doing it right’. AIs cannot be held or consider accountable as they lack context and are not human (they don’t judge).</li>
+  <li><strong>Provide oversight.</strong> Experience shows that 60% of the time goes into preparing context for the AI: code snippets, documentation, explaining the change. The AI must be guided through the review, and its output must be verified. (But it leads to a more thorough review in the same amount of time.)</li>
+  <li><strong>Use tools like CodeRabbit.</strong> These tools generate rweview comments on your pull requests. It can generate a PR summary, scan for vulnerabilities, check naming conventions, and identify missing test cases. (CodeRabbit integrates with GitHub and GitLab.)</li>
+  <li><strong>Context Enrichment.</strong> Use a cloned repo, focus on changes only, discard changes to ancillary files (e.g. auto-generated code and dependencies), construct a code graph to understand how files interrelate, learn from past review (store results intermittently), include open and past PRs, and use linters and SAST tools.</li>
+  <li><strong>AI as pair programmer.</strong> AIs are better at evaluation than design. Checking for errors and comparing code against best practices is more straightforward than creative design.</li>
+  <li><strong>Use a review agent.</strong> Use a review agent to double check the LLM’s work against the original prompts. This catches mistakes and ensures the generated code adheres to the requirements and instructions.</li>
+</ul>
+
+<h2 id="ci-integration">CI Integration</h2>
+<ul>
+  <li><strong>Automated PR generation.</strong> Create PRs to group code modifications associated with each specification</li>
+  <li><strong>Test validation.</strong> Run tests automatically on generated changes.</li>
+  <li><strong>Human review prompts.</strong> Generate explanations for human reviewers.</li>
+</ul>
+
+<h1 id="when-and-where-to-llms">When and where to LLMs</h1>
+<ul>
+  <li><strong>Use manual techniques to provide structure when you have a simple CLI.</strong> For example to bootstrap the scaffolding (e.g. a Spring Boot application).</li>
+  <li><strong>Use for prototypes, internal tools, or MVPs.</strong></li>
+  <li><strong>Use traditional development practices for mission-critical systems.</strong> So not use vibe coding for important systems, e.g. healthcare, finance, aerospace. Possibly augment with AI tools like Copilot Workspace or Cursor for productivity gains.</li>
+  <li><strong>Vibe coming should be considered only for throw-away projects.</strong> The practice produces bad software that does not scale, is not secure, and doesn’t meet exact requirements. It leads to Shadow IT.</li>
+</ul>
+
+<h1 id="advice-to-engineering-leaders">Advice to Engineering Leaders</h1>
+
+<h2 id="meaningful-experimentation">Meaningful Experimentation</h2>
+<ul>
+  <li><strong>Guide the engineers</strong> by understanding the real impact of AI tools and make sure they are on board with the direction. Some engineers are over-eager and need to be toned down, others are skeptical and stay away from using the tools.
+    <blockquote>
+      <p>Engineers need to learn how to compensate for the limitations and resist the siren call of sloppy software design.</p>
+
+      <p>The best way to move your own engineering org towards this middle path is by encouraging engineers to meaningfully engage with this technology, in order to collectively understand both its capabilities, and its limitations.</p>
+    </blockquote>
+  </li>
+  <li><strong>Keep the pace</strong> because the AI technology is evolving very fast. The tools and techniques that are state-of-the-art today will very likely be old hat within a year or two. To keep up, a strong culture of ongoing experimentation and knowledge sharing is required.</li>
+  <li><strong>Empower teams</strong> with auotnomy around exactly how they can meaningfully experiment with AI-assisted coding.</li>
+  <li><strong>Define objective measures</strong> which track progress towards adoption.</li>
+  <li><strong>Provide organizational support</strong> through training, making sure everyone has access to whatever tools and services they need, and establish peer support via a Community of Practice.</li>
+  <li><strong>Establish KPIs</strong> which clearly communicate current state and target state - where we are and where we want to get to. Use metrics that indicate</li>
+  <li><strong>Use metrics</strong> that measure whether teams are making meaningful investment in trailing AI-assisted coding and share what they learn.
+    <blockquote>
+      <p>Useful metrics may include</p>
+      <ul>
+        <li>Number of tools piloted by each team, categorized by type</li>
+        <li>Has the team done an AI tool retro in the last month</li>
+        <li>How much activity is there in the community channels (e.g. Slack, Viva)</li>
+        <li>What is attendance like for Community of Practice meetings</li>
+      </ul>
+    </blockquote>
+  </li>
+  <li><strong>Communicate a clear target</strong> to the teams, starting with the Experimentation metrics and gradually expanding to Adoption and Impact as teams progress.
+    <blockquote>
+      <p>Example: “By the end of the month we expect all teams to have piloted at least two tools in each of these categories, held an internal retro, and identified next steps for experimentation”.</p>
+    </blockquote>
+  </li>
+  <li><strong>Provide a training program</strong> to accelerate skill development.</li>
+</ul>
+
+<h2 id="adoption">Adoption</h2>
+<ul>
+  <li><strong>Use metrics</strong> that measure the actual adoption of AI tooling. This may vary across teams as their goals and focus differs.
+    <blockquote>
+      <p>Useful metrics may include</p>
+      <ul>
+        <li>Usage of tools - which teams are using which tools for which tasks (code completion, agentic coding, code review, UX prototyping, etc).</li>
+        <li>Sentiment - Does AI make you more productive?</li>
+      </ul>
+    </blockquote>
+  </li>
+  <li><strong>Communicate the adoption target.</strong> This should include objective feedback on their progress while still giving the teams autonomy on how to achieve that goal.
+    <blockquote>
+      <p>Example: “Here’s where you are today according to the most recent AI adoption survey. Here’s how those metrics compare to other teams, and here’s how it compares to our goal for the end of the quarter.</p>
+
+      <p>What are your plans for achieving that goal, and what can the organization do to support you?”</p>
+    </blockquote>
+  </li>
+  <li><strong>Support AI adoption</strong> by providing some lightly-prescriptive guidance, particularly at the start. Provide them with direction, but allow them to be autonomous and choose a different approach if that’s what they want.
+    <blockquote>
+      <p>This can be done in various ways:</p>
+      <ul>
+        <li>A kickoff session to discuss the program, share goals, and brainstorm ideas</li>
+        <li>Scheduled informal brown bag sessions to share what people are doing</li>
+        <li>An AI-dedicated team retro</li>
+      </ul>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="impact">Impact</h2>
+<ul>
+  <li><strong>Use metrics</strong> that measure the impact of the AI tooling. What does AI assistance do in terms of productivity, quality, agility, etc.
+    <blockquote>
+      <p>The best approach here is to use the same sort of general metrics you’d use for engineering productivity - things like DORA, SPACE, etc.</p>
+
+      <p>If you’re also measuring AI adoption for teams then you can combine these two sets of metrics to figure out whether AI adoption affects things like Change Failure Rate, Lead Time, MTTR, etc.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="remove-organizational-impediments">Remove Organizational Impediments</h2>
+<ul>
+  <li><strong>Budget.</strong> Demistify cost concerns by comparion the license cost against a fully loaded cost of an engineer and the boost they can get from AI assistance. The license is really a marginal cost. Make sure teams have budget approvals.</li>
+  <li><strong>Compliance.</strong> Get clearance for at least a “pilot program” level of access to the latest tools. Choose tools that support self-hosted or dedicated-tenant deployment models in case you will need that.</li>
+  <li><strong>Provide time.</strong> Work with leadership to ensure the engineers actually have time to start working with the AI tools. Ask for executive championing. Let the teams know that they have the time (or else they may just continue with the every business activities).</li>
+  <li><strong>Create a Community of Practice.</strong> This can provide a significant boost in the adoption. These should be grass-rooted and centered on practitioners, however leaders should plan to provide initial support. Assign someone for clear accountability to bootstrap the CoP (meetings, touch-points, leading).</li>
+  <li><strong>Lead with empathy</strong> to show to engineers that you understand their concerns around AI and address it heads-on. Also ensure that the metrics are not misinterpreted or misused. Don’t share granular metrics with leadership.</li>
+  <li><strong>Communicate progress</strong> to teams to help them understand how they are progressing, and report the overall progress to people outside engineering.</li>
+</ul>
+
+<h1 id="sources">Sources</h1>
+<ul>
+  <li><a href="https://martinfowler.com/articles/pushing-ai-autonomy.html">MartinFolwer.com - How far can we push AI autonomy in code generation?</a></li>
+  <li><a href="https://mskadu.medium.com/generating-code-with-llms-a-developers-guide-part-1-0c381dc3e57a">Medium - Generating Code with LLMs: A Developer’s Guide</a></li>
+  <li><a href="https://blog.korny.info/2025/07/18/a-real-world-ai-coding-case-sample">Korny Sietsma - A real-world AI coding case sample</a></li>
+  <li><a href="https://groups.google.com/g/idesign-alumni/c/Hkb7W4VJswo">iDesign Alumni - #1 Skill in the Age of AI: Critical Thinking</a> (private thread)</li>
+  <li><a href="https://newsletter.techworld-with-milan.com/p/how-to-do-code-reviews-with-ai-tools">Milan Milanović - How to do code reviews with AI tools</a></li>
+  <li><a href="https://www.coderabbit.ai/blog/the-art-and-science-of-context-engineering?utm_source=fnf&amp;utm_medium=newsletter&amp;utm_campaign=coderabbit-august&amp;utm_term=lmezzalira&amp;utm_content=context-engineering-blog">CodeRabbit - The art and science of context engineering for AI code reviews</a></li>
+  <li><a href="https://thenewstack.io/vibe-coding-the-shadow-it-problem-no-one-saw-coming/">Steve Fenton - Vibe Coding: The Shadow IT Problem No One Saw Coming</a></li>
+  <li><a href="https://blog.thepete.net/blog/2025/06/26/leading-your-engineers-towards-an-ai-assisted-future/">Pete Hodgson - Leading your engineers towards an AI-assisted future</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-08-25T00:00:00+00:00">August 25, 2025</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?text=Guidelines+for+AI-Assisted+Development%20http%3A%2F%2Flocalhost%3A4000%2Fai%2F2025%2F08%2F25%2Fai-assisted-development-guidelines.html" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fai%2F2025%2F08%2F25%2Fai-assisted-development-guidelines.html" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=Guidelines+for+AI-Assisted+Development%20http%3A%2F%2Flocalhost%3A4000%2Fai%2F2025%2F08%2F25%2Fai-assisted-development-guidelines.html" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html" class="pagination--pager" title="Accelerate State of DevOps: AI Adoption">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/developer%20experience/2025/07/25/accelerate-state-of-devops-2024-2-ai-adoption.html" rel="permalink">Accelerate State of DevOps: AI Adoption
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+ Updated: 25 July 2025 
+ Category: Developer Experience
+
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/developer%20experience/2025/07/23/from-developer-to-tech-lead.html" rel="permalink">From Developer to Tech Lead
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+ Updated: 23 July 2025 
+ Category: Developer Experience
+
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/developer%20experience/2025/07/19/expert-generalist.html" rel="permalink">Expert Generalists
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+ Updated: 19 July 2025 
+ Category: Developer Experience
+
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ai/2025/07/17/AI-leads-to-regulation.html" rel="permalink">AI leads to regulation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+ Updated: 17 July 2025 
+ Category: AI
+
+</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/wtvisser" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/wicher-visser/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Wicher Visser</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MR38VVS6RS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MR38VVS6RS');
+</script>
+
+
+
+
+  </body>
+</html>
