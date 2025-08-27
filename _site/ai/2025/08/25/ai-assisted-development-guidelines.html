@@ -335,7 +335,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-cog"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#setup">Setup</a><ul><li><a href="#tech-stack">Tech Stack</a></li><li><a href="#tooling">Tooling</a></li></ul></li><li><a href="#using-llms">Using LLMs</a><ul><li><a href="#general">General</a></li><li><a href="#context-engineering">Context Engineering</a></li><li><a href="#code-reviews">Code Reviews</a></li><li><a href="#ci-integration">CI Integration</a></li></ul></li><li><a href="#when-and-where-to-llms">When and where to LLMs</a></li><li><a href="#advice-to-engineering-leaders">Advice to Engineering Leaders</a><ul><li><a href="#meaningful-experimentation">Meaningful Experimentation</a></li><li><a href="#adoption">Adoption</a></li><li><a href="#impact">Impact</a></li><li><a href="#remove-organizational-impediments">Remove Organizational Impediments</a></li></ul></li><li><a href="#sources">Sources</a></li></ul>
+              <ul class="toc__menu"><li><a href="#setup">Setup</a><ul><li><a href="#tech-stack">Tech Stack</a></li><li><a href="#tooling">Tooling</a></li></ul></li><li><a href="#using-llms">Using LLMs</a><ul><li><a href="#general">General</a></li><li><a href="#context-engineering">Context Engineering</a></li><li><a href="#code-reviews">Code Reviews</a></li><li><a href="#documentation">Documentation</a></li><li><a href="#ci-integration">CI Integration</a></li></ul></li><li><a href="#when-and-where-to-llms">When and where to LLMs</a></li><li><a href="#advice-to-engineering-leaders">Advice to Engineering Leaders</a><ul><li><a href="#meaningful-experimentation">Meaningful Experimentation</a></li><li><a href="#adoption">Adoption</a></li><li><a href="#impact">Impact</a></li><li><a href="#remove-organizational-impediments">Remove Organizational Impediments</a></li></ul></li><li><a href="#sources">Sources</a></li></ul>
             </nav>
           </aside>
         
@@ -344,6 +344,8 @@
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#AI">AI</a></p>
 
 <p>I collect the development guidelines and best practices for AI-assisted development here. These are based on my own experience using LLMs as well as those from others.</p>
+
+<p>It should be considered a living document and possibly perpetuous work-in-progress.</p>
 
 <div class="notice">
 <div style="float:left;"><span style="color:Dodgerblue"><i class="fa-solid fa-lightbulb fa-3x" style="vertical-align: middle" aria-hidden="true"></i></span></div>
@@ -395,6 +397,11 @@
   <li><strong>Context Enrichment.</strong> Use a cloned repo, focus on changes only, discard changes to ancillary files (e.g. auto-generated code and dependencies), construct a code graph to understand how files interrelate, learn from past review (store results intermittently), include open and past PRs, and use linters and SAST tools.</li>
   <li><strong>AI as pair programmer.</strong> AIs are better at evaluation than design. Checking for errors and comparing code against best practices is more straightforward than creative design.</li>
   <li><strong>Use a review agent.</strong> Use a review agent to double check the LLM’s work against the original prompts. This catches mistakes and ensures the generated code adheres to the requirements and instructions.</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+<ul>
+  <li><strong>Use LLMs for well structured and understood information</strong> such as asking for a method based on OpenAPI documentation. (Do not use it for documentation that requires underlying intent - the “why” for doing something.)</li>
 </ul>
 
 <h2 id="ci-integration">CI Integration</h2>

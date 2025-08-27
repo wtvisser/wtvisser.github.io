@@ -1,8 +1,12 @@
 ---
 layout:     single
-classes:    wide
 title:      "From Developer to Tech Lead"
 categories: [Developer Experience]
+
+# classes:    wide      # wide doesn't work with right-side TOC
+toc: true
+toc_icon: "cog"
+toc_sticky: true
 
 tagline: "How to take on a leadership role"
 header:

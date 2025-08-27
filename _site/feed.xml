@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-25T18:23:25+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">Guidelines for AI-Assisted Development</title><link href="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html" rel="alternate" type="text/html" title="Guidelines for AI-Assisted Development" /><published>2025-08-25T00:00:00+00:00</published><updated>2025-08-25T00:00:00+00:00</updated><id>http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines</id><content type="html" xml:base="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>25 August 2025</time> 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-27T15:03:23+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">Guidelines for AI-Assisted Development</title><link href="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html" rel="alternate" type="text/html" title="Guidelines for AI-Assisted Development" /><published>2025-08-25T00:00:00+00:00</published><updated>2025-08-25T00:00:00+00:00</updated><id>http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines</id><content type="html" xml:base="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>25 August 2025</time> 
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#AI">AI</a></p>
 
 <p>I collect the development guidelines and best practices for AI-assisted development here. These are based on my own experience using LLMs as well as those from others.</p>
+
+<p>It should be considered a living document and possibly perpetuous work-in-progress.</p>
 
 <div class="notice">
 <div style="float:left;"><span style="color:Dodgerblue"><i class="fa-solid fa-lightbulb fa-3x" style="vertical-align: middle" aria-hidden="true"></i></span></div>
@@ -53,6 +55,11 @@
   <li><strong>Context Enrichment.</strong> Use a cloned repo, focus on changes only, discard changes to ancillary files (e.g. auto-generated code and dependencies), construct a code graph to understand how files interrelate, learn from past review (store results intermittently), include open and past PRs, and use linters and SAST tools.</li>
   <li><strong>AI as pair programmer.</strong> AIs are better at evaluation than design. Checking for errors and comparing code against best practices is more straightforward than creative design.</li>
   <li><strong>Use a review agent.</strong> Use a review agent to double check the LLM’s work against the original prompts. This catches mistakes and ensures the generated code adheres to the requirements and instructions.</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+<ul>
+  <li><strong>Use LLMs for well structured and understood information</strong> such as asking for a method based on OpenAPI documentation. (Do not use it for documentation that requires underlying intent - the “why” for doing something.)</li>
 </ul>
 
 <h2 id="ci-integration">CI Integration</h2>

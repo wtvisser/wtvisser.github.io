@@ -1,8 +1,12 @@
 ---
 layout:     single
-classes:    wide
 title:      "How I created this website (1) - Jekyll and Github Pages"
 category:   [Website]
+
+# classes:    wide      # wide doesn't work with right-side TOC
+toc: true
+toc_icon: "cog"
+toc_sticky: true
 
 tagline: ""
 header:

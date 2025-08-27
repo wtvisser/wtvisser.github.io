@@ -1,10 +1,14 @@
 ---
 layout:     single
-classes:    wide
 title:      "AI leads to regulation"
 categories: [AI]
 
-tagline: ""
+# classes:    wide      # wide doesn't work with right-side TOC
+# toc: true             # no section in the blog post
+# toc_icon: "cog"
+# toc_sticky: true
+
+tagline: "A prediction"
 header:
   overlay_image: /assets/images/headers/leaf_1280x325.png
 image:

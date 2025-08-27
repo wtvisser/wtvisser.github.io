@@ -1,8 +1,12 @@
 ---
 layout:     single
-classes:    wide
 title:      "Personal Website and Blog"
 categories: [Website]
+
+# classes:    wide      # wide doesn't work with right-side TOC
+# toc: true             # no section in the blog post
+# toc_icon: "cog"
+# toc_sticky: true
 
 tagline: "How to build cross-domain expertise and thrive"
 header:

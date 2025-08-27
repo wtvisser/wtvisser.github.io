@@ -1,8 +1,12 @@
 ---
 layout:     single
-classes:    wide
 title:      "How I created this website (2) - Codespaces"
 category:   [Website]
+
+# classes:    wide      # wide doesn't work with right-side TOC
+toc: true
+toc_icon: "cog"
+toc_sticky: true
 
 tagline: ""
 header:

@@ -1,8 +1,12 @@
 ---
 layout:     single
-classes:    wide
 title:      "Expert Generalists"
 categories: [Developer Experience]
+
+# classes:    wide      # wide doesn't work with right-side TOC
+toc: true
+toc_icon: "cog"
+toc_sticky: true
 
 tagline: "How to build cross-domain expertise and thrive"
 header:

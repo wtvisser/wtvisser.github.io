@@ -1,9 +1,9 @@
 ---
 layout:     single
-# classes:    wide      # wide doesn't work with right-side TOC
 title:      "Guidelines for AI-Assisted Development"
 categories: [AI]
 
+# classes:    wide      # wide doesn't work with right-side TOC
 toc: true
 toc_icon: "cog"
 toc_sticky: true
@@ -18,7 +18,9 @@ image:
 ---
 {% include post_category_and_date.html %}
 
-I collect the development guidelines and best practices for AI-assisted development here. These are based on my own experience using LLMs as well as those from others.
+I collect the development guidelines and best practices for AI-assisted development here. These are based on my own experience using LLMs as well as those from others. 
+
+It should be considered a living document and possibly perpetuous work-in-progress.
 
 {% capture notice-1 %}
 <div style="float:left;"><span style="color:Dodgerblue"><i class="fa-solid fa-lightbulb fa-3x" style="vertical-align: middle" aria-hidden="true"></i></span></div>
@@ -61,6 +63,9 @@ I collect the development guidelines and best practices for AI-assisted developm
 * **Context Enrichment.** Use a cloned repo, focus on changes only, discard changes to ancillary files (e.g. auto-generated code and dependencies), construct a code graph to understand how files interrelate, learn from past review (store results intermittently), include open and past PRs, and use linters and SAST tools.
 * **AI as pair programmer.** AIs are better at evaluation than design. Checking for errors and comparing code against best practices is more straightforward than creative design.
 * **Use a review agent.** Use a review agent to double check the LLM's work against the original prompts. This catches mistakes and ensures the generated code adheres to the requirements and instructions.
+
+## Documentation
+* **Use LLMs for well structured and understood information** such as asking for a method based on OpenAPI documentation. (Do not use it for documentation that requires underlying intent - the "why" for doing something.)
 
 ## CI Integration
 * **Automated PR generation.** Create PRs to group code modifications associated with each specification

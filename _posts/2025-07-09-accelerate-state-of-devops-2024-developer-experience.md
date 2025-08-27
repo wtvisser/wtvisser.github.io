@@ -1,8 +1,12 @@
 ---
 layout:     single
-classes:    wide
 title:      "Accelerate State of DevOps: Developer Experience"
 categories: [Developer Experience]
+
+# classes:    wide      # wide doesn't work with right-side TOC
+toc: true
+toc_icon: "cog"
+toc_sticky: true
 
 tagline: "User-centricity can improve software development"
 header:
