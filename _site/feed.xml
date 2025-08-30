@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-27T15:03:23+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">Guidelines for AI-Assisted Development</title><link href="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html" rel="alternate" type="text/html" title="Guidelines for AI-Assisted Development" /><published>2025-08-25T00:00:00+00:00</published><updated>2025-08-25T00:00:00+00:00</updated><id>http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines</id><content type="html" xml:base="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>25 August 2025</time> 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-30T10:45:20+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wicher Visser</title><subtitle>Personal home page and blog.</subtitle><author><name>Wicher Visser</name></author><entry><title type="html">Guidelines for AI-Assisted Development</title><link href="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html" rel="alternate" type="text/html" title="Guidelines for AI-Assisted Development" /><published>2025-08-25T00:00:00+00:00</published><updated>2025-08-25T00:00:00+00:00</updated><id>http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines</id><content type="html" xml:base="http://localhost:4000/ai/2025/08/25/ai-assisted-development-guidelines.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>25 August 2025</time> 
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#AI">AI</a></p>
 
 <p>I collect the development guidelines and best practices for AI-assisted development here. These are based on my own experience using LLMs as well as those from others.</p>
@@ -255,6 +255,14 @@ Product performance improvements with 25% AI adoption</p>
 
 <p>Moving from a developer role to a tech lead position is an exciting but demanding transition. Although solid coding abilities are essential, effective leadership entails much more. As a tech lead, you’ll need to juggle team coordination, project planning, and stakeholder management, all of which are key aspects of project management.</p>
 
+<p>In this post I try to capture on how I think one could propell their career to great heights.</p>
+
+<div class="notice">
+<div style="float:left;"><span style="color:Dodgerblue"><i class="fa-solid fa-lightbulb fa-3x" style="vertical-align: middle" aria-hidden="true"></i></span></div>
+<div><span>This post expands on an earlier version. It has been enriched with my introspections and insights from others.</span><div>
+</div></div>
+</div>
+
 <h1 id="tech-lead-team-lead-and-project-manager">Tech Lead, Team Lead and Project Manager</h1>
 <p>A Tech Lead is a multifaceted role that combines technical expertise with leadership responsibilities. They are responsible for guiding the technical direction of projects, mentoring team members, and ensuring that projects are delivered on time and within budget. Tech leads must balance  their technical skills with project management capabilities to succeed in this role.</p>
 
@@ -283,8 +291,9 @@ Product performance improvements with 25% AI adoption</p>
 
 <p>The team may be part of a larger setup such as an <a href="https://framework.scaledagile.com/agile-release-train">Agile Release Train</a> or <a href="https://framework.scaledagile.com/development-value-streams/">Value Stream</a> which the Tech Lead must navigate.</p>
 
-<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
-<p>Learn Agile methodologies like Scrum, Kanban and SAFe. If formal education is required, consider taking a course from the <a href="https://www.scrumalliance.org/get-certified">Scrum Alliance</a> or the <a href="https://scaledagile.com/certification/agile-software-engineering/">SAFe Agile Software Engineering</a> or <a href="https://scaledagile.com/certification/safe-architect/">SAFe Architect</a>.</p>
+<div class="notice">
+<div style="float:left;"><span><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i></span>&emsp;&emsp;&emsp;</div>
+<p>Learn how to work in agile environments. Understand the <a href="https://agilemanifesto.org/">Agile Manifesto</a> by heart. If required by the coorporate jungle, take a course from the <a href="https://www.scrumalliance.org/get-certified">Scrum Alliance</a>, the <a href="https://scaledagile.com/certification/agile-software-engineering/">SAFe Agile Software Engineering</a> or <a href="https://scaledagile.com/certification/safe-architect/">SAFe Architect</a>. But more so, know what <em>lean</em> and “agile* really means.</p>
 </div>
 
 <h2 id="team-collaboration-and-communication">Team Collaboration and Communication</h2>
@@ -292,7 +301,8 @@ Product performance improvements with 25% AI adoption</p>
 
 <p>A tech lead is more than just a senior developer; they also serve as a mentor and a decision-maker. It’s vital for the team to grasp project goals and stay aligned to achieve success. Clear communication helps avoid misunderstandings and facilitates smooth project execution.</p>
 
-<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
+<div class="notice">
+<div style="float:left;"><span><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i></span>&emsp;&emsp;&emsp;</div>
 <p>Carry out and lead regular stand-ups, sprint reviews, and retrospectives to foster an open and transparent team culture. Encourage feedback and knowledge sharing to improve collaboration. Learn effective <a href="https://medium.com/@stalin.t/effective-communication-in-software-engineering-speaking-the-receivers-language-60d359b97123">communication skills</a> through role-playing in a group setting.</p>
 </div>
 
@@ -301,15 +311,17 @@ Product performance improvements with 25% AI adoption</p>
 
 <p>Every project faces unexpected issues. Whether it is scope creep, bugs, or changing requirements, a tech lead must anticipate risks and have a plan to address them before they become more serious.</p>
 
-<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
+<div class="notice">
+<div style="float:left;"><span><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i></span>&emsp;&emsp;&emsp;</div>
 <p>Use <a href="https://www.projectmanager.com/training/how-to-analyze-risks-project">risk mapping techniques</a> to manage possible changes. Having a contingency plan in place will help keep projects on schedule.</p>
 </div>
 
 <h2 id="delegation-and-task-management">Delegation and Task Management</h2>
-<p>As a developer, you were responsible for developing software. As a Tech Lead, your role shifts to ensuring that the software is implemented correctly and people work on the right tasks while maintaining efficiency. Overloading yourself with tasks can lead to burnout and decreased productivity.</p>
+<p>As a developer, you are responsible for developing software. As a Tech Lead, your role shifts to ensuring that the software is implemented correctly and people work on the right tasks while maintaining efficiency. Overloading yourself with tasks can lead to burnout and decreased productivity.</p>
 
-<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
-<p>Learn how to delegate effectively, trust your team, and use the right tools for better task allocation and tracking.</p>
+<div class="notice">
+<div style="float:left;"><span><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i></span>&emsp;&emsp;&emsp;</div>
+<p>Use <a href="https://www.projectmanager.com/training/how-to-analyze-risks-project">risk mapping techniques</a> to manage possible changes. Having a contingency plan in place will help keep projects on schedule.</p>
 </div>
 
 <h2 id="stakeholder-management">Stakeholder Management</h2>
@@ -317,9 +329,40 @@ Product performance improvements with 25% AI adoption</p>
 
 <p>Solution: Develop presentation and reporting skills to communicate technical updates clearly. Use dashboards and reports in project management tools to share progress updates with stakeholders effectively.</p>
 
-<div class="notice--info"><div style="float:left"><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i>&emsp;&emsp;&emsp;</div>
-<p><a href="https://architectelevator.com/workshops/">Enhance your presentation and reporting skills</a> to communicate technical updates effectively. Utilize dashboards and reports in project management tools to provide stakeholders with clear progress updates.</p>
+<div class="notice">
+<div style="float:left;"><span><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i></span>&emsp;&emsp;&emsp;</div>
+<p>Use <a href="https://www.projectmanager.com/training/how-to-analyze-risks-project">risk mapping techniques</a> to manage possible changes. Having a contingency plan in place will help keep projects on schedule.</p>
 </div>
+
+<h1 id="how-to-pursue-your-growth">How to pursue your growth</h1>
+<p>My recommendations to software engineers to focus and accelarate their career growth:</p>
+
+<h2 id="create-clarity">Create clarity</h2>
+<ul>
+  <li><strong>Take control and be intrinsically motivated.</strong> That way are in charge of your growth and career; don’t leave it to managers and leaders, instead use them to your benefit</li>
+  <li><strong>Focus on being a generalizing specialist and full-stack engineer</strong> rather than specializing too early. Understand the fundamentals. See also my article about <a href="/developer%20experience/2025/07/19/expert-generalist.html">Expert Generalist</a>.</li>
+  <li><strong>Keep an open ear</strong> and listen very carefully to the challenges raised by leaders and peers, and use it to identify opportunities for yourself beyond the daily grind.</li>
+  <li><strong>Practice interviews</strong> every 1-2 years to stay close to keep you sharp and keeps you up-to-date on industry expectations.</li>
+</ul>
+
+<h2 id="focus-your-project-contribution">Focus your project contribution</h2>
+<ul>
+  <li><strong>Increase responsibility.</strong> Take on work that sets you apart, such as non-technical but necessary work. Like taking notes, coordination with vendors. This builds goodwill and credibility. You will be noticed by management and will speed up promotions.</li>
+  <li><strong>Increase ownership</strong> for the entire software lifecycle, even if it’s not in your job description or the expectation. This mentalitity is what sets your apart from others.</li>
+  <li><strong>Deal with increasing complexities.</strong> Work on more complex projects as you progress; staying on edge helps to excel fast.</li>
+  <li><strong>Be part of interviewing new people.</strong> You will learn about engineering in other companies. This could be as simple as talking to potential candidates at conferences and meetups. It also provides you with visibility and reputation.</li>
+  <li><strong>Onboard new employees.</strong> You can set expectations, explain best practices, and in your preparation and the exchange, you will improve yourself.</li>
+  <li><strong>Obtain deep domain context.</strong> This enables you to translate and challenge stakeholder requirements, adds value beyond <em>mere</em> development.</li>
+</ul>
+
+<h2 id="work-on-your-soft-skills">Work on your soft skills</h2>
+<ul>
+  <li><strong>Communication and soft influence.</strong> You will be dealing more and with different kinds of stakeholders as you move up the ladder.</li>
+  <li><strong>Practice strategic thinking.</strong> Think about impact and how your ideas and decisions align with vision, not just requirements.</li>
+  <li><strong>Practice writing.</strong> Clear concise documentation is a key element of engineering (e.g. concepts, solution approach, team onboarding)</li>
+  <li><strong>Practice speaking (internal or public).</strong> It helps with conveying complex technical information and large architectural changes.</li>
+  <li><strong>Seek out conversation through 1:1s and forums.</strong> This provides you a broader perspective</li>
+</ul>
 
 <h1 id="further-reading">Further Reading</h1>
 <p>I find this book useful:</p>
@@ -327,7 +370,7 @@ Product performance improvements with 25% AI adoption</p>
   <li><a href="https://leadthe.dev/">Leading developers</a></li>
 </ul>
 
-<p>Have a look at my collection of gems about <a href="/gems/sociotechnical/">SocioTechnical Engineering</a>.</p>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><summary type="html"><![CDATA[Updated: 23 July 2025 Category: Developer Experience]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Expert Generalists</title><link href="http://localhost:4000/developer%20experience/2025/07/19/expert-generalist.html" rel="alternate" type="text/html" title="Expert Generalists" /><published>2025-07-19T00:00:00+00:00</published><updated>2025-07-19T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/19/expert-generalist</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/19/expert-generalist.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>19 July 2025</time> 
+<p>Have a look at my collection of gems about <a href="/gems/sociotechnical/">SocioTechnical Engineering</a> and <a href="/gems/skills">Engineering Skills</a>.</p>]]></content><author><name>Wicher Visser</name></author><category term="Developer Experience" /><summary type="html"><![CDATA[Updated: 23 July 2025 Category: Developer Experience]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" /><media:content medium="image" url="http://localhost:4000/assets/images/opengraph/leaf_325x325_with_name.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Expert Generalists</title><link href="http://localhost:4000/developer%20experience/2025/07/19/expert-generalist.html" rel="alternate" type="text/html" title="Expert Generalists" /><published>2025-07-19T00:00:00+00:00</published><updated>2025-07-19T00:00:00+00:00</updated><id>http://localhost:4000/developer%20experience/2025/07/19/expert-generalist</id><content type="html" xml:base="http://localhost:4000/developer%20experience/2025/07/19/expert-generalist.html"><![CDATA[<p><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time>19 July 2025</time> 
 <strong><i class="fas fa-fw fa-book-reader" aria-hidden="true" style="margin-left: 1em"></i> Category:</strong> <a href="/categories/#Developer Experience">Developer Experience</a></p>
 
 <p>Martin Fowler posted an article about <a href="https://martinfowler.com/articles/expert-generalist.html">Expert Generalists</a>.</p>
