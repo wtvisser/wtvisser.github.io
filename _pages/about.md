@@ -41,9 +41,9 @@ Outside of work, I stay updated about the latest trends. I have a thrust for kno
 ## My information sources
 I read a lot. Here is a list of my most important information sources.
 
-* [Software Architect Newsletter](https://www.infoq.com/software-architects-newsletter/) by InfoQ.
-* [Tech Posts](https://substack.com/@techworldwithmilan/posts) by Milan Milanović
-* [Developer Monday](https://www.youtube.com/@markrichards5014) videos by Mark Richards.
+* [Software Architect Newsletter](https://www.infoq.com/software-architects-newsletter/) by InfoQ
+* [Tech Posts](https://newsletter.techworld-with-milan.com) by Milan Milanović
+* [Developer Monday](https://www.youtube.com/@markrichards5014) videos by Mark Richards
 * [LinkedIn posts on Residuality Theory](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAFQLl4Baw9lJlHRHWZbmDBHAQ9XudZ0LAA&keywords=barry%20o%27reilly&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=6773243f-4409-42c9-86be-bd5a78fed54e&sid=Vfz&spellCorrectionEnabled=true) by Barry O'Reilly
 * [Johner Institute](https://blog.johner-institute.com/)
 * [iDesign](https://idesign.net/) alumni group
