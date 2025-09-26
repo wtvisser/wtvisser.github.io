@@ -84,7 +84,7 @@ As a developer, you are responsible for developing software. As a Tech Lead, you
 <div style="float:left;"><span><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i></span>&emsp;&emsp;&emsp;</div>
 Learn how to delegate effectively, trust your team, and use the right tools for better task allocation and tracking.
 {% endcapture %}
-<div class="notice">{{ notice-3 | markdownify }}</div>
+<div class="notice">{{ notice-4 | markdownify }}</div>
 
 ## Stakeholder Management
 A Tech Lead frequently engages with customers, suppliers, product managers, and executives to ensure that development efforts are aligned with business objectives. The capacity to convey technical challenges in business terms is an essential leadership quality.
@@ -95,7 +95,7 @@ Solution: Develop presentation and reporting skills to communicate technical upd
 <div style="float:left;"><span><i class="fa-solid fa-graduation-cap fa-4x" aria-hidden="true"></i></span>&emsp;&emsp;&emsp;</div>
 [Enhance your presentation and reporting skills](https://architectelevator.com/workshops/) to communicate technical updates effectively. Utilize dashboards and reports in project management tools to provide stakeholders with clear progress updates.
 {% endcapture %}
-<div class="notice">{{ notice-3 | markdownify }}</div>
+<div class="notice">{{ notice-5 | markdownify }}</div>
 
 # How to pursue your growth
 My recommendations to software engineers to focus and accelarate their career growth:
